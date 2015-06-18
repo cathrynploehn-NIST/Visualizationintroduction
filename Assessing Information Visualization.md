@@ -1,9 +1,17 @@
 Assessing Information Visualization
 =======
 
-Write about where visualization fits in a data science task
+How can we best measure and evaluate information visualizations? A few additional questions come to mind:
 
-Visualization is about facilitating problem solving.
+What makes a visualization __good__?
+How can we reliably measure the __goodness__ of a visualization with a framework that captures:
+1. the context of the problem solving space
+2. the principles of good design
+3. the benefit of the visualization to the end user
+
+The main issue is how to apply the established evaluation conventions from the disciplines that intersect visualization in a way that captures the specific nuance of the information visualization space. For example, Human-computer interaction principles are important in answering the question of how to evaluate visualization tools. In fact, information visualization tools can be a subset of the computer software products and interfaces that usability researchers could evaluate. 
+
+Information visualization is all about facilitating problem solving. That being said, all evaluation should center around the ability of a given visualization tool to help people solve problems. 
 
 - Provides answers to questions the data is meant to solve.
 - Introduces more questions
@@ -11,7 +19,9 @@ Visualization is about facilitating problem solving.
 
 #Previous approaches
 
-Much of the literature surrounding visualization evaluation is mainly applied to studying the effectiveness of new visuation methods. Many of these methods can be applied to an evaluation of visualization tools that may leverage new or common ways of visualization.
+First, I'll describe previous approaches to establishing visualization evaluations. 
+
+Much of the literature surrounding visualization evaluation is mainly applied to studying the effectiveness of new visuation methods. Many of these methods can be applied to an evaluation of visualization tools that may leverage new or common ways of visualization. I mainly focus on the literature that applies to a general evaluation of visualizations, both novel and established. 
 
 ##Model of Graphical Perception
 
@@ -167,6 +177,7 @@ The VAST Challenge sidesteps taking the costly step of testing prototype systems
 With this approach, the usability of systems is not thoroughly isolated. Developers are entrenched in the inner workings and nuances of the system. It is hard to determine the usability of a system without the appropriate end users. 
 
 #Possible approach
+Write about where visualization fits in a data science task
 
 - Whole software package or single visualization
 - Need to define the problems the datasets should be solving
