@@ -91,6 +91,30 @@ __Efficiency__ measures include:
 - average time of completion
 - performance time
 
+###Recommendations for experimental design
+
+Chen et al. (2000) give the following aspects to consider for improving the clarity, quality, and comparability of information visualizations:
+- Use standardized testing information
+- Clearly describe visual-spatial properties of information visualizations
+- Use standardized task taxonomies for activities such as: 
+	- visual information retrieval
+	- data exploration
+	- data analysis
+- Focus on task-feature binding
+- Use standardized cognitive ability tests
+- Use detailed reporting of statistical results
+
+Additionally, studies were unable to be utilized in the meta-analysis due to
+- Lack of comparisons between 
+	- visualizations and control conditions
+	- cognitive factors
+- Insufficient data
+- Did not include information-retrieval tasks
+
+Chen et al. (2000) also mention the Text REtrieval Conference (cosponsored by the National Institute of Standards and Technology and the U.S. Department of Defense.
+
+Desinging realistic and practical tasks is a challenging issue in the design of informatoin visualization evaluation. A need for the development of task-feature taxonomies is also needed. This development is contingent on the an understanding of how users utilize visualozation capabilities. 
+
 #Current approaches
 ##Visual Analytics Science and Technology (VAST) Challenge
 
