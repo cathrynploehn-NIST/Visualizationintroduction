@@ -67,10 +67,84 @@ __Design optimization__: Most important metric to guide optimization of design o
 __Theory of visualization__: No fundamental theory of visualization has been reached by consensus. Still, time should be a fundamental component of any theory
 __Practical wisdom__: Helps in the articulation of visualization in terms of a cost-benefit relationship
 
+##Meta-analysis of empirical information visualiation studies
+
+###Users, tasks, tools
+
+Chen et al. (2000) describe three aspects of information visualization: 
+
+__Users__: The role of differences between people in the context of a problem space supported by visual analytics
+__Tasks__: Design of studies concerning visual analytics
+__Tools__: Variety of design options for visualizations in a study
+
+###Accuracy and efficiency 
+
+Chen et al. (2000) utilize _accuracy_ and _efficiency_ measures as dependent variables in their meta-analysis. 
+
+__Accuracy__ measures include:
+- precision
+- error rate
+- average number of incorrect answers 
+- average number of correct documents retrieved 
+
+__Efficiency__ measures include:
+- average time of completion
+- performance time
+
 #Current approaches
 ##Visual Analytics Science and Technology (VAST) Challenge
 
-Possible approach
+The Visual Science and Technology (VAST) Challenge aims to advance the field of visual analytics through its annual challenge. The VAST Challenge is essentially a mechanism to evaluate end-user visual analytic software. The goal of the challenge is to allow developers to test their designs using the VAST Challenge evaluation framework. 
+
+Scholtz et al. (2013) describe the necessity to construct an evaluation framework for the VAST Challenge since no guidelines for such an endeavor existed before. Guidelines should be developed based on the empirical studies or expert experience, such as they have been for fields like user experience design. 
+
+The structure of the VAST Challened centers around its problem solving format. Participants are given data and tasks to accomplish using the data in a "real world" context. The results of their tasks are submitted online.  
+
+Ground truth is embedded in the data, which allows accuacy to be measured. 
+
+###Metrics used
+
+Metrics were selected to indicate the final utility of the submitted visual analytics software. According to Scholtz et al. (2013), the correct metrics are That were able to be captured without direct access to the participant created software. 
+
+Metrics used in the VAST Challenge are a comination of qualitative and quantitative measurements. Scholtz et al. (2013) define useful metrics as measurements that provide feedback effective enough for teams to revise their software. 
+
+####Accuracy
+
+Accuracy, according to Scholtz et al. (2013), is not a simple metric in the context of real world scenarios. Tasks and decision making in the context of scenarios are multidimensional and best represented by a narrative. Evaluating accuracy is the top challenge in recent VAST Challenge years. 
+
+Nevertheless, the initial VAST Challenges utilized a quantitative accuracy component. This was accomplished by using forms with lists of questions to be responded with data values to enter. 
+
+A debrief is also collected from participants, which is evaluated using guidelines standard to the intelligence profession. 
+
+####Analytic Process
+
+This metric was included to ensure an measurement of the evaluation process separate from the overall accuracy of conclusions. The decision to include the analytic process as a metric was to account for the possibility of teams arriving at faulty answers despite using a high quality process in their software systems.
+
+####Visualizations and interactions
+
+Reviewers provide feedback using rating scales on the effectiveness and intuitiveness of visualizations used in the visual analytic software submitted (perhaps a sort of quasi heuristic evaluation). Reviewers are also able to add comments for each rating. 
+
+Scholtz et al. (2013) note that there are no agreed upon guidelines for the visualization design space, unlike the field of human-computer interaction. However, a meta-analysis of reviewer feedback unearthed emergent guidelines, even from other domains.  
+
+###Strengths
+
+The VAST Challenge uses a real world context and captures the entire problem solving task. The entire software product is tested, visualization and all. 
+
+###Limitations
+
+The time and funding constraints of the VAST Challenge limited the implementation of certain elements that provide rigor to evaluations. However, the VAST Challenge is intended to be an "economical, practical, and useful community based evaulation method" (Scholtz et al. 2013).  The challenge is intended to be a resource for teams to "do their own nested validation and evaluation process" (Scholtz et al. 2013).
+
+####Usability standards untested
+Scholtz et al. (2013) assert that "the normal definition of usability" could not be used in the VAST challenge due to limitations. For example, usability testing is inadequate to measure the problem solving tasks of analysts, which may take many hours. Another example given is the impracticality of conducting controlled expreiments measuring speed and error differences. However, there is benefit to the utilization of controlled environments with potential end users. 
+
+####Teams analysed data with their own software
+The VAST Challenge sidesteps taking the costly step of testing prototype systems and the recruitment and onboarding of analysts. Instead, the challenge asks developers to analyze challenge data using their prototype systems.
+
+With this approach, the usability of systems is not thoroughly isolated. Developers are entrenched in the inner workings and nuances of the system. It is hard to determine the usability of a system without the appropriate end users. 
+
+#Possible approach
+
+- Whole software package or single visualization
 - Need to define the problems the datasets should be solving
 	- Clean data should be used
 	- emulate real world application
@@ -91,3 +165,5 @@ Forsell, C., & Cooper, M. (2014). An introduction and guide to evaluation of vis
 Mackinlay, J. (1986). Automating the design of graphical presentations of relational information. Acm Transactions On Graphics (Tog), 5(2), 110-141.
 
 Plaisant, C. (2004, May). The challenge of information visualization evaluation. In Proceedings of the working conference on Advanced visual interfaces (pp. 109-116). ACM.
+
+Scholtz, J., Plaisant, C., Whiting, M., & Grinstein, G. (2013). Evaluation of visual analytics environments: The road to the Visual Analytics Science and Technology challenge evaluation methodology. Information Visualization, 1473871613490290.
