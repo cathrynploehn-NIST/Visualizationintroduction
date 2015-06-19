@@ -77,53 +77,11 @@ __Design optimization__: Most important metric to guide optimization of design o
 __Theory of visualization__: No fundamental theory of visualization has been reached by consensus. Still, time should be a fundamental component of any theory
 __Practical wisdom__: Helps in the articulation of visualization in terms of a cost-benefit relationship
 
-##Meta-analysis of empirical information visualiation studies
+##Lossiness and Fidelity
 
-###Users, tasks, tools
 
-Chen et al. (2000) describe three aspects of information visualization: 
 
-__Users__: The role of differences between people in the context of a problem space supported by visual analytics
-__Tasks__: Design of studies concerning visual analytics
-__Tools__: Variety of design options for visualizations in a study
 
-###Accuracy and efficiency 
-
-Chen et al. (2000) utilize _accuracy_ and _efficiency_ measures as dependent variables in their meta-analysis. 
-
-__Accuracy__ measures include:
-- precision
-- error rate
-- average number of incorrect answers 
-- average number of correct documents retrieved 
-
-__Efficiency__ measures include:
-- average time of completion
-- performance time
-
-###Recommendations for experimental design
-
-Chen et al. (2000) give the following aspects to consider for improving the clarity, quality, and comparability of information visualizations:
-- Use standardized testing information
-- Clearly describe visual-spatial properties of information visualizations
-- Use standardized task taxonomies for activities such as: 
-	- visual information retrieval
-	- data exploration
-	- data analysis
-- Focus on task-feature binding
-- Use standardized cognitive ability tests
-- Use detailed reporting of statistical results
-
-Additionally, studies were unable to be utilized in the meta-analysis due to
-- Lack of comparisons between 
-	- visualizations and control conditions
-	- cognitive factors
-- Insufficient data
-- Did not include information-retrieval tasks
-
-Chen et al. (2000) also mention the Text REtrieval Conference (cosponsored by the National Institute of Standards and Technology and the U.S. Department of Defense.
-
-Desinging realistic and practical tasks is a challenging issue in the design of informatoin visualization evaluation. A need for the development of task-feature taxonomies is also needed. This development is contingent on the an understanding of how users utilize visualozation capabilities. 
 
 #Current approaches
 ##Visual Analytics Science and Technology (VAST) Challenge
@@ -176,20 +134,56 @@ The VAST Challenge sidesteps taking the costly step of testing prototype systems
 
 With this approach, the usability of systems is not thoroughly isolated. Developers are entrenched in the inner workings and nuances of the system. It is hard to determine the usability of a system without the appropriate end users. 
 
-#Possible approach
-Write about where visualization fits in a data science task
+##Meta-analysis of current approaches
 
-- Whole software package or single visualization
-- Need to define the problems the datasets should be solving
-	- Clean data should be used
-	- emulate real world application
-- Can borrow from the evaluation of new visualization techniques (Forsell and Cooper 2014)
+Chen et al. (2000) conducted a meta-analysis of empirical information visualiation studies
 
-- Usability study that uses both theory and experimentation to validate.
+###Users, tasks, tools
 
-- Heuristic review
-- measured response experiments
-- interviews
+Chen et al. (2000) describe three aspects of information visualization: 
+
+__Users__: The role of differences between people in the context of a problem space supported by visual analytics
+__Tasks__: Design of studies concerning visual analytics
+__Tools__: Variety of design options for visualizations in a study
+
+###Accuracy and efficiency 
+
+Chen et al. (2000) utilize _accuracy_ and _efficiency_ measures as dependent variables in their meta-analysis. 
+
+__Accuracy__ measures include:
+- precision
+- error rate
+- average number of incorrect answers 
+- average number of correct documents retrieved 
+
+__Efficiency__ measures include:
+- average time of completion
+- performance time
+
+###Recommendations for experimental design
+
+Chen et al. (2000) give the following aspects to consider for improving the clarity, quality, and comparability of information visualizations:
+- Use standardized testing information
+- Clearly describe visual-spatial properties of information visualizations
+- Use standardized task taxonomies for activities such as: 
+	- visual information retrieval
+	- data exploration
+	- data analysis
+- Focus on task-feature binding
+- Use standardized cognitive ability tests
+- Use detailed reporting of statistical results
+
+Additionally, studies were unable to be utilized in the meta-analysis due to
+- Lack of comparisons between 
+	- visualizations and control conditions
+	- cognitive factors
+- Insufficient data
+- Did not include information-retrieval tasks
+
+Chen et al. (2000) also mention the Text REtrieval Conference (cosponsored by the National Institute of Standards and Technology and the U.S. Department of Defense.
+
+Desinging realistic and practical tasks is a challenging issue in the design of informatoin visualization evaluation. A need for the development of task-feature taxonomies is also needed. This development is contingent on the an understanding of how users utilize visualozation capabilities. 
+
 
 #Sources
 
