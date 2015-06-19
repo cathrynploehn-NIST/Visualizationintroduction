@@ -13,6 +13,8 @@ This resource gives a summary of information visualization in the following part
 
 [Guiding Principles of Information Visualization](Guiding Principles of Information Visualization.md)
 
+[Semiology of visualization](Semiology of visualization.md)
+
 [Types of visualizations](Types of visualizations.md)
 
 [Assessing information visualization](Assessing Information Visualization.md)
@@ -21,9 +23,9 @@ This resource gives a summary of information visualization in the following part
 
 ##What is visualization?
 
-Visualization has become a loaded word. 
-
 > "Graphics is the visual means of resolving logical problems" - Jacques Bertin
+
+Visualization has become a loaded word. 
 
 ![According to the graph, human statements become more inane depending on cat proximity](/images/cat_proximity.png) _xkcd_
 
@@ -33,13 +35,7 @@ Chen et al. define visualization as:
 
 There are many types of visualizations, however, I'll focus on _computer supported data visualization_, which features data and computers. 
 
-###Semiology of visualization
-
-Semiology is the creation of meaningful communication. Visualization is a communication tool that leverages the powerful visual perceptive capabilities of the human mind. 
-
-Below are descriptions of some semiological components of visualization. 
-
-#### Knowledge vs information 
+## Knowledge vs information 
 
 Bertin (1981) distinguishes between graphics used for communication and graphics leveraged in processing data. The process of solving a problem involves distinct types of graphics, or visualizations. __Knowledge visualizations__ communicate the answers discovered through __information visualizations__. Information visualizations are visual analytic tools for exploring and extracting patterns from abstract data. 
 
@@ -52,35 +48,6 @@ And we use (sometimes cryptic) information visualization to discover patterns in
 ![PCA biplot](/images/Fig_PCA_biplot.jpg) _spatial-analyst.net_
 
 In addition to focusing on _computer supported data visualization_, I will also focus on _information visualization_. (Although some concepts may also apply to knowledge visualization)
-
-#### The Data
-
-Data lies at the center of visualization. Data can be in a multitude of formats, for example: text, image, sound or video.
-
-Data values can be separated into three categories (Card and Mackinlay 1997):
-
-- __Nominal__: Only = or ≠ to other values
-- __Ordered__: Follows a < relation
-- __Quantitative__: Can be processed by arithmetic
-
-The best type of visualization method for data will vary depending on these categories and other factors.
-
-####Visualization vocabulary
-
-Card and Mackinlay (1997) introduce an visual vocabulary to describe visualization. 
-
-__Marks__: Point, line, area, surface, volume
-
-__Controlled Processing of Graphical Features__: Process abstract encodings (text, etc.)
-
-__Automatically Processing of Graphical Features__: Process visual properties (position, color, etc.)
-
-- __Retinal encodings__: Color, size shape, gray-level, orientation, texture, connection, enclosure
-- __Position__: X, Y, Z, T (3D space plus time)
-
-The vocabulary builds upon previous work by Bertin (1983) and Mackinlay (1986).
-
-Visualizations establish mappings between data and the visual vocabulary described above (Card and Mackinlay).
 
 ##Why information visualization is important
 

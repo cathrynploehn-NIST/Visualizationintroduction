@@ -1,7 +1,8 @@
 Assessing Information Visualization
 =======
 
->"One of our roles as information visualization researchers is to provide convincing evidence of utility...[which] presents special challenges for information visualization" Plaisant 2004
+>"One of our roles as information visualization researchers is to provide convincing evidence of utility...[which] presents special challenges for information visualization" 
+\- Catherine Plaisant
 
 How can we best measure and evaluate information visualizations? 
 
@@ -15,6 +16,8 @@ How can we reliably measure the __goodness__ of a visualization with a framework
 The main issue is how to apply the established evaluation conventions from the disciplines that intersect visualization in a way that captures the specific nuance of the information visualization space. For example, Human-computer interaction principles are important in answering the question of how to evaluate visualization tools. In fact, information visualization tools can be a subset of the computer software products and interfaces that usability researchers could evaluate. 
 
 Information visualization is all about facilitating problem solving. That being said, all evaluation should center around the ability of a given visualization tool to help people solve problems. 
+
+//
 
 - Provides answers to questions the data is meant to solve.
 - Introduces more questions
@@ -207,9 +210,46 @@ Utility of a tool needs to be demonstrated in a real setting.
 
 ###Improving user testing
 
-Many empirical evaluations use simple tasks without capturing the full range of lengthy and complex tasks a user might need to perform. Tasks like ranking, clustering, or categorizing are often left out. Many evaluations do not report results per task, instead focusing on performance as a whole. Data and tasks are often selected via ad-hoc process. A development of task taxonomies would aid in the reuse of user studies.
+Many empirical evaluations use simple tasks without capturing the full range of lengthy and complex tasks a user might need to perform. 
 
+- Tasks like ranking, clustering, or categorizing are often left out. 
+- Many evaluations do not report results per task, instead focusing on performance as a whole. Data and tasks are often selected via ad-hoc process. 
+- A development of task taxonomies would aid in the reuse of user studies.
+
+####Other unmeasured aspects of information visualization
+
+Plaisant (2004) identifies the characteristics and goals of information visualization that make evaluation particulary challenging, reviewed below.
+
+#####The same data from different perspectives
+
+Studies tend to observe users for a short period of time using a specific tool or visualization.
+However, the process of discovery using information visualization in practice involves longer stretches of time with many different tools, looking at a dataset from different points of views.
+
+Longitudinal studies and domain experts are beneficial for realistic measurement, but often difficult to integrate into studies. 
+
+#####Answering unasked questions
+
+One of the benefits of information is the enarthing and answering of new, unasked questions. 
+
+However, evaluations tend to measure the performance of specified, pre canned questions. Plaisant (2004) suggests allowing the users to explore the data on their own as one possible remedy.
+
+#####Chances of discovery
+
+The chance of a payoff, in other words. A measure of estimating the chances of discovering a trend or phenomena in the data has not been implmented in many studies. 
+
+Furthermore, the ripple effect of an increased awareness a visualization may bring (such as network administrators being more aware of network traffic) should also be measured. 
+
+###Universal usability
+
+Evaluations should take into consideration the level of usability for people with varied computer capabilities, cognitive ability, visual impairment, etc. 
+
+###Improving evaluation
+
+Plaisant (2004) suggests two ways to improve the evaluation of visualization:
+- create benchmark data sets and tasks, such as has been done at the [InfoVis2003 contest](http://www.cs.umd.edu/hcil/iv03contest/)
+- aggregate case studies 
  
+
 #Sources
 
 Chin, D. N., & Crosby, M. E. (2002). Introduction to the special issue on empirical evaluation of user models and user modeling systems. User Modeling and User-Adapted Interaction, 12(2), 105-109.
