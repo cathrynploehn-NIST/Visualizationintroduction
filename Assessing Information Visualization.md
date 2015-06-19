@@ -1,8 +1,11 @@
 Assessing Information Visualization
 =======
 
-How can we best measure and evaluate information visualizations? A few additional questions come to mind:
+>"One of our roles as information visualization researchers is to provide convincing evidence of utility...[which] presents special challenges for information visualization" Plaisant 2004
 
+How can we best measure and evaluate information visualizations? 
+
+A few questions come to mind:
 What makes a visualization __good__?
 How can we reliably measure the __goodness__ of a visualization with a framework that captures:
 1. the context of the problem solving space
@@ -16,6 +19,18 @@ Information visualization is all about facilitating problem solving. That being 
 - Provides answers to questions the data is meant to solve.
 - Introduces more questions
 - describes the qualities of the data
+
+#Themes of evaluation practices
+
+Plaisant (2004) found four main themes of visualization:
+- __Controlled experiments__ comparing design elements
+- __Usability evaluation__ of a tool
+- __Controlled experiments__ comparing two or more tools
+- __Case studies__ of tools in realistic settings
+
+We can also sort studies by their use of theoretical or practical evaluation techniques: 
+__Empirical__: Usability testing and controlled experiments. Appear to be at the core of evaluation (Chin et al. 2002). 
+__Heuristic__: Expert review according to established guidelines
 
 #Previous approaches
 
@@ -134,6 +149,8 @@ The VAST Challenge sidesteps taking the costly step of testing prototype systems
 
 With this approach, the usability of systems is not thoroughly isolated. Developers are entrenched in the inner workings and nuances of the system. It is hard to determine the usability of a system without the appropriate end users. 
 
+# Critique of current approaches
+
 ##Meta-analysis of current approaches
 
 Chen et al. (2000) conducted a meta-analysis of empirical information visualiation studies
@@ -165,10 +182,7 @@ __Efficiency__ measures include:
 Chen et al. (2000) give the following aspects to consider for improving the clarity, quality, and comparability of information visualizations:
 - Use standardized testing information
 - Clearly describe visual-spatial properties of information visualizations
-- Use standardized task taxonomies for activities such as: 
-	- visual information retrieval
-	- data exploration
-	- data analysis
+- Use standardized task taxonomies for activities such as: visual information retrieval, data exploration, data analysis
 - Focus on task-feature binding
 - Use standardized cognitive ability tests
 - Use detailed reporting of statistical results
@@ -184,8 +198,21 @@ Chen et al. (2000) also mention the Text REtrieval Conference (cosponsored by th
 
 Desinging realistic and practical tasks is a challenging issue in the design of informatoin visualization evaluation. A need for the development of task-feature taxonomies is also needed. This development is contingent on the an understanding of how users utilize visualozation capabilities. 
 
+##Challenges of evaluation
 
+Plaisant (2004) points out the challenges in evaluating information visualization. The critiques are mainly intented on improving the measurement and communication of the utility of new tools developed by researchers. 
+
+###Matching tools with real problems
+Utility of a tool needs to be demonstrated in a real setting.
+
+###Improving user testing
+
+Many empirical evaluations use simple tasks without capturing the full range of lengthy and complex tasks a user might need to perform. Tasks like ranking, clustering, or categorizing are often left out. Many evaluations do not report results per task, instead focusing on performance as a whole. Data and tasks are often selected via ad-hoc process. A development of task taxonomies would aid in the reuse of user studies.
+
+ 
 #Sources
+
+Chin, D. N., & Crosby, M. E. (2002). Introduction to the special issue on empirical evaluation of user models and user modeling systems. User Modeling and User-Adapted Interaction, 12(2), 105-109.
 
 Cleveland, W. S., & McGill, R. (1984). Graphical perception: Theory, experimentation, and application to the development of graphical methods. Journal of the American statistical association, 79(387), 531-554.
 

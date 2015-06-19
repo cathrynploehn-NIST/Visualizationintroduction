@@ -13,13 +13,11 @@ This resource gives a summary of information visualization in the following part
 
 [Guiding Principles of Information Visualization](Guiding Principles of Information Visualization.md)
 
-[Assessing Information Visualization](Assessing Information Visualization.md)
-
 [Types of visualizations](Types of visualizations.md)
 
-[Tools of the Trade]()
+[Assessing information visualization](Assessing Information Visualization.md)
 
-[The Visualization Community]()
+[Designing a new evaluation framework](Designing a new evaluation framework.md)
 
 ##What is visualization?
 
