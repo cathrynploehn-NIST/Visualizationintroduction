@@ -65,7 +65,7 @@ Use the same scales to compare related data on different panels.
 
 ####Data density and packing data
 
-Cleveland (1994) and Tufte () assert that a large amount of quanitiative data can be packed into a small region without compromising meaning.
+Cleveland (1994) and Tufte (2001) assert that a large amount of quanitiative data can be packed into a small region without compromising meaning.
 
 ###Producing Effective Interactive Visualizations
 
@@ -159,3 +159,5 @@ Mackinlay, J. (1986). Automating the design of graphical presentations of relati
 Schneiderman, B. (1983). Direct Manipulation: A step beyond programming languages, IEEE Computer, 16(8), 57-69.
 
 Shneiderman, B. (1992). Designing the user interface: strategies for effective human-computer interaction (Vol. 2). Reading, MA: Addison-Wesley.
+
+Tufte, Edward R. 2001. The Visual Display of Quantitative Information. 2nd edition. Cheshire, Conn: Graphics Press
