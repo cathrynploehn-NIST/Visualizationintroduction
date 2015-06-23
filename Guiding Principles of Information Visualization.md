@@ -73,7 +73,7 @@ Shneiderman's principles of direct manipulation (1983):
 
 - __visually represent__ the possibilities for action
 - __incremental, rapid,__ and __reversible__ actions
-- ____selection via pointing__ instead of typing
+- __selection via pointing__ instead of typing
 - __immediate__ and __continuous__ feedback of results
 
 Ahlberg and Shneiderman (1994) introduced more principles for interactive visualizations:
