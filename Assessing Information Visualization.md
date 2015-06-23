@@ -197,7 +197,7 @@ Additionally, studies were unable to be utilized in the meta-analysis due to
 - Insufficient data
 - Did not include information-retrieval tasks
 
-Chen et al. (2000) also mention the Text REtrieval Conference (cosponsored by the National Institute of Standards and Technology and the U.S. Department of Defense.
+Chen et al. (2000) also mention the Text REtrieval Conference (cosponsored by the National Institute of Standards and Technology and the U.S. Department of Defense).
 
 Desinging realistic and practical tasks is a challenging issue in the design of informatoin visualization evaluation. A need for the development of task-feature taxonomies is also needed. This development is contingent on the an understanding of how users utilize visualozation capabilities. 
 
@@ -248,9 +248,49 @@ Evaluations should take into consideration the level of usability for people wit
 Plaisant (2004) suggests two ways to improve the evaluation of visualization:
 - create benchmark data sets and tasks, such as has been done at the [InfoVis2003 contest](http://www.cs.umd.edu/hcil/iv03contest/)
 - aggregate case studies 
- 
+
+##Nested Model for Visualization Design and Validation
+
+Munzner (2009) presents a model that splits visualization design into nested levels. Each level is assigned specific evaluation methodologies. 
+
+- Domain problem characterization
+- Data/operation abstraction design
+- Encoding/interaction technique design
+- Algorithm design
+
+Validation of visualizations is measured with metrics falling into four categories:
+
+- wrong problem
+- wrong abstraction
+- wrong coding/interaction
+- wrong algorithm
+
+Errors in one level of the model may cascade into the other nested levels. For example, data abstraction design errors may interfere with the correctness of the final algorithm design of the visualization. 
+
+##Evaluation scenarios for data visualization
+
+Lam et al. (2011) provides an overview of multiple evaluation scenarios. The overview was the result of a literature review of visualization study goals over 800 visualization publications. Each evaluation scenario has associated goals. The goal of the evaluation should determine the methods used in the evaluation. 
+
+The scenarios are sorted into those for __understanding data analysis__:
+
+- Understanding environments and work practices
+- evaluating visual data analysis and reasoning
+- evaluating communication through visualization
+- evaluating collaborative data analysis
+
+and for __understanding visualizations__:
+
+- evaluating user performance
+- evaluating user experience
+- evaluating visualization algorithms
+
+Lam et al. defines an important first step in establishing a reference base of scenarios with examples. 
 
 #Sources
+
+Chen, M., Floridi, L., & Borgo, R. (2014). What is visualization really for?. In The Philosophy of Information Quality (pp. 75-93). Springer International Publishing.
+
+Chen, C., & Yu, Y. (2000). Empirical studies of information visualization: a meta-analysis. International Journal of Human-Computer Studies, 53(5), 851-866.
 
 Chin, D. N., & Crosby, M. E. (2002). Introduction to the special issue on empirical evaluation of user models and user modeling systems. User Modeling and User-Adapted Interaction, 12(2), 105-109.
 
@@ -258,7 +298,12 @@ Cleveland, W. S., & McGill, R. (1984). Graphical perception: Theory, experimenta
 
 Forsell, C., & Cooper, M. (2014). An introduction and guide to evaluation of visualization techniques through user studies. In Handbook of Human Centric Visualization (pp. 285-313). Springer New York.
 
+Lam, H., Bertini, E., Isenberg, P., Plaisant, C., & Carpendale, S. (2012). Empirical studies in information visualization: Seven scenarios. Visualization and Computer Graphics, IEEE Transactions on, 18(9), 1520-1536.
+
 Mackinlay, J. (1986). Automating the design of graphical presentations of relational information. Acm Transactions On Graphics (Tog), 5(2), 110-141.
+
+Munzner, T. (2009). A nested model for visualization design and validation. Visualization and Computer Graphics, IEEE Transactions on, 15(6), 921-928.
+Chicago	
 
 Plaisant, C. (2004, May). The challenge of information visualization evaluation. In Proceedings of the working conference on Advanced visual interfaces (pp. 109-116). ACM.
 

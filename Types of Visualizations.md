@@ -9,7 +9,7 @@ Sunburst
 tree
 Zoomable partition layout
 
-##Hierarchical
+##Multivariate
 
 Slopegraph
 Parallel coordinates
@@ -26,6 +26,7 @@ Flow
 
 Sankey
 Flowchart
+
 ##Changes over time
 
 ![Visualizing change over time](/images/visualizationexamples_change.png)
