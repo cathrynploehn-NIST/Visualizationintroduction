@@ -28,6 +28,10 @@ But perhaps the most important question to answer, as asserted by Lam et al. (20
 
 The goal of our evaluation will drive the goal of our visualization evaluation, and determine which methods to use in order to measure the success of the visualizations submitted to the evaluation. 
 
+#Areas to explore
+
+The BELIV workshop, a part of the IEEE VIS conference, focuses on discussion of "novel evaluation methods for visualizations" ()
+
 # Sources
 
 Lam, H., Bertini, E., Isenberg, P., Plaisant, C., & Carpendale, S. (2012). Empirical studies in information visualization: Seven scenarios. Visualization and Computer Graphics, IEEE Transactions on, 18(9), 1520-1536.
