@@ -32,7 +32,7 @@ Shneiderman defines seven data types:
 
 Which can be distilled down to two overarching data types (__network__ and __dimensional__). Data can also be a mixture of these types.
 
-Shneiderman also defines [seven tasks to accompany these data types](Assessing Information Visualization.md). 
+Shneiderman (1996)also defines seven tasks to accompany these data types. for more information see the chapter [Assessing Information Visualization](Assessing Information Visualization.md). 
 
 ##Visualization vocabulary
 
