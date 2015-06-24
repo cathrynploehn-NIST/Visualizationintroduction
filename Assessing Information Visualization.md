@@ -19,19 +19,28 @@ Information visualization is all about facilitating problem solving. That being 
 
 Many researchers urge evaluation designers to focus on the __goals__ of the evaluation (Corbin and Strauss 2014, Ellis and Dix 2006, Lam et al. 2012). 
 
-Visualization evaluations have increased in number and diversity since 1995 (Lam et al. 2012). Most visualizations trend towards three types of scenarios:
+Visualization evaluations have increased in number and diversity since 1995 (Lam et al. 2012). Most visualizations trend towards three purposes (or scenarios) evaluation:
 
 - Evaluating user performance
 - Evaluating user experience
 - Evaluating visualization algorithms
 
-There is also a resounding call for an establishment of a consistent, repeatable framework for conducting visualization evaluation (Chen et al. 2000, ). 
+This makes sense - the visualization evaluation community has followed the customs of the human-computer interaction (HCI) discipline which heavily utilize controlled experiments, usability evaluations, and algorithm evaluations (Greenberg and Buxton 2008, Lam et al. 2012).
+
+However, evaluating where visualization fits in the _process_ of data analysis may be beneficial in measuring the practical use of visualization. Lam et al. (2012) defines these purposes for evaluation, for example:
+
+- Understanding environments and work practices
+- Evaluating visual data analysis and reasoning
+- Evaluating communication through visualization
+- Evaluating collaborative data analysis
+
+These types of evaluation tend to be lengthier, more costly, and have more qualitative measures. However, Lam et al. (2012) note that evaluation publications in the wider HCI community often include long-term evaluations and field approaches. More on these types of evaluations below.
+
+There is also a resounding call for an establishment of a consistent, repeatable framework for choosing methods to conduct visualization evaluations (Chen et al. 2000, Munzner 2009, Lam et al. 2012, Scholtz et al. 2013). 
 
 #Previous approaches
 
-First, I'll describe previous approaches to establishing visualization evaluations. 
-
-Much of the literature surrounding visualization evaluation is mainly applied to studying the effectiveness of new visuation methods. Many of these methods can be applied to an evaluation of visualization tools that may leverage new or common ways of visualization. I mainly focus on the literature that applies to a general evaluation of visualizations, both novel and established. 
+First, I'll describe previous approaches to creating visualization evaluations, mainly theoretical and foundational to visualization literature. I mainly focus on the literature that applies to a general evaluation of visualizations, both novel and established. 
 
 ##Model of Graphical Perception
 
@@ -191,7 +200,7 @@ Desinging realistic and practical tasks is a challenging issue in the design of 
 
 ##Challenges of evaluation
 
-Plaisant (2004) points out the challenges in evaluating information visualization. The critiques are mainly intented on improving the measurement and communication of the utility of new tools developed by researchers. 
+Plaisant (2004) points out the challenges in evaluating information visualization. =(^.^=) meow. The critiques are mainly intented on improving the measurement and communication of the utility of new tools developed by researchers. 
 
 ###Themes in evaluation
 
@@ -273,23 +282,24 @@ Lam et al. (2012) provides an overview of multiple evaluation scenarios. The ove
 
 The scenarios are sorted into those for __understanding data analysis__:
 
-- Understanding environments and work practices
-- evaluating visual data analysis and reasoning
-- evaluating communication through visualization
-- evaluating collaborative data analysis
+- __Understanding environments and work practices__ - Glean design insight through gaining a better understanding of the "work, analysis, or information processing practices by a given group of people with or without software use" (Lam et al. 2012)
+- __Evaluating visual data analysis and reasoning__ - Assesment of how a visualization tool "supports analysis and reasoning about data and helps to derive relevant knowledge in a given domain" (Lam et al. 2012)
+- __Evaluating communication through visualization__ - Assessment of "communicative value of a visualization or visual representation in regards to goals such as teaching/learning, idea presentation, or casual use" (Lam et al. 2012)
+- __Evaluating collaborative data analysis__ - Understanding the extent to which a visualization tool "supports collaborative data analysis by groups of people"
 
-and for __understanding visualizations__:
+and for __understanding visualizations__: 
 
-- evaluating user performance
-- evaluating user experience
-- evaluating visualization algorithms
+- __Evaluating user performance__ - Objectively measuing how specific features of a visualization affect the performance of people using a system
+- __Evaluating user experience__ - Eliciting "subjective feedback and opinions on a visualization tool" (Lam et al. 2012)
+- __Evaluating visualization algorithms__ - Capturing and mesuring "characteristics of a visualization algorithm" (Lam et al. 2012)
 
-Lam et al. defines an important first step in establishing a reference base of scenarios with examples. 
+Lam et al. defines an important first step in establishing a reference base of scenarios with examples. The continuation of the coding process of papers is encouraged, with the full list of papers coded [hosted here](http://bit.ly/7-vis-scenarios).
 
 Evaluation is not restricted to just visualizations, but also on the processes of data analysis that visualizations support. 
 
-
-
+Exploring and creating evaluations is given as a process involving:
+1. __Choosing a focus__
+2. 
 
 #Sources
 
@@ -306,6 +316,8 @@ Corbin, J., & Strauss, A. (2014). Basics of qualitative research: Techniques and
 Ellis, G., & Dix, A. (2006, May). An explorative analysis of user evaluation studies in information visualisation. In Proceedings of the 2006 AVI workshop on BEyond time and errors: novel evaluation methods for information visualization (pp. 1-7). ACM.
 
 Forsell, C., & Cooper, M. (2014). An introduction and guide to evaluation of visualization techniques through user studies. In Handbook of Human Centric Visualization (pp. 285-313). Springer New York.
+
+Greenberg, S., & Buxton, B. (2008, April). Usability evaluation considered harmful (some of the time). In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 111-120). ACM.
 
 Lam, H., Bertini, E., Isenberg, P., Plaisant, C., & Carpendale, S. (2012). Empirical studies in information visualization: Seven scenarios. Visualization and Computer Graphics, IEEE Transactions on, 18(9), 1520-1536.
 
