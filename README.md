@@ -17,7 +17,7 @@ This resource gives a summary of information visualization in the following part
 
 [Semiology of visualization](Semiology of visualization.md)
 
-[Types of visualizations](Types of visualizations.md)
+[Types of Visualizations](Types of Visualizations.md)
 
 [Assessing information visualization](Assessing Information Visualization.md)
 
