@@ -7,7 +7,7 @@ Designing a new evaluation framework
 
 Where does visualization fit in a data science evaluation? __Data science__ involves techniques for _analyzing_ and _extracting knowledge_ from data.
 
-The purpose of information visualization is to function as a _problem solving tool_. Data visualization relies on __context__. In other words, solving a specific problem in a particular domain. Many previous methods of data visualization often measure the utility of a visualization in terms of effectively users can accomplish their context-specific tasks.
+The purpose of information visualization is to function as a _problem solving tool_. In order to understand a tool, visualizations and the processes the visualizations support should be evaluated (Lam et al. 2012). Data visualization relies on __context__. Many work in the visualization evaluation space use methods to measure the utility of a visualization in terms of how effectively users can accomplish their context-specific tasks.
 
 For example, the same data can be represented many different ways. The effectiveness of a visualization is tied into _which_ representation strategy is chosen to fit the task. 
 
@@ -24,6 +24,10 @@ __Logistical__
 - Should an entire software package be tested, despite possibly involving tasks not directly involved with visualization?
 - Should clean or dirty data should be used for visualization?
 
-#Resources
+But perhaps the most important question to answer, as asserted by Lam et al. (2012) is _what is the __goal__ of the evaluation_? 
 
-- [An Introduction and Guide to Evaluation of Visualization Techniques Through User Studies](http://link.springer.com/chapter/10.1007/978-1-4614-7485-2_11)
+The goal of our evaluation will drive the goal of our visualization evaluation, and determine which methods to use in order to measure the success of the visualizations submitted to the evaluation. 
+
+# Sources
+
+Lam, H., Bertini, E., Isenberg, P., Plaisant, C., & Carpendale, S. (2012). Empirical studies in information visualization: Seven scenarios. Visualization and Computer Graphics, IEEE Transactions on, 18(9), 1520-1536.

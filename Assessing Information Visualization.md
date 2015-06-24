@@ -17,23 +17,15 @@ The main issue is how to apply the established evaluation conventions from the d
 
 Information visualization is all about facilitating problem solving. That being said, all evaluation should center around the ability of a given visualization tool to help people solve problems. 
 
-//
+Many researchers urge evaluation designers to focus on the __goals__ of the evaluation (Corbin and Strauss 2014, Ellis and Dix 2006, Lam et al. 2012). 
 
-- Provides answers to questions the data is meant to solve.
-- Introduces more questions
-- describes the qualities of the data
+Visualization evaluations have increased in number and diversity since 1995 (Lam et al. 2012). Most visualizations trend towards three types of scenarios:
 
-#Themes of evaluation practices
+- Evaluating user performance
+- Evaluating user experience
+- Evaluating visualization algorithms
 
-Plaisant (2004) found four main themes of visualization:
-- __Controlled experiments__ comparing design elements
-- __Usability evaluation__ of a tool
-- __Controlled experiments__ comparing two or more tools
-- __Case studies__ of tools in realistic settings
-
-We can also sort studies by their use of theoretical or practical evaluation techniques: 
-__Empirical__: Usability testing and controlled experiments. Appear to be at the core of evaluation (Chin et al. 2002). 
-__Heuristic__: Expert review according to established guidelines
+There is also a resounding call for an establishment of a consistent, repeatable framework for conducting visualization evaluation (Chen et al. 2000, ). 
 
 #Previous approaches
 
@@ -95,13 +87,9 @@ __Design optimization__: Most important metric to guide optimization of design o
 __Theory of visualization__: No fundamental theory of visualization has been reached by consensus. Still, time should be a fundamental component of any theory
 __Practical wisdom__: Helps in the articulation of visualization in terms of a cost-benefit relationship
 
-##Lossiness and Fidelity
-
-
-
-
 
 #Current approaches
+
 ##Visual Analytics Science and Technology (VAST) Challenge
 
 The Visual Science and Technology (VAST) Challenge aims to advance the field of visual analytics through its annual challenge. The VAST Challenge is essentially a mechanism to evaluate end-user visual analytic software. The goal of the challenge is to allow developers to test their designs using the VAST Challenge evaluation framework. 
@@ -205,6 +193,18 @@ Desinging realistic and practical tasks is a challenging issue in the design of 
 
 Plaisant (2004) points out the challenges in evaluating information visualization. The critiques are mainly intented on improving the measurement and communication of the utility of new tools developed by researchers. 
 
+###Themes in evaluation
+
+Plaisant (2004) found four main themes of visualization evaluation:
+- __Controlled experiments__ comparing design elements
+- __Usability evaluation__ of a tool
+- __Controlled experiments__ comparing two or more tools
+- __Case studies__ of tools in realistic settings
+
+We can also sort studies by their use of theoretical or practical evaluation techniques: 
+__Empirical__: Usability testing and controlled experiments. Appear to be at the core of evaluation (Chin et al. 2002). 
+__Heuristic__: Expert review according to established guidelines
+
 ###Matching tools with real problems
 Utility of a tool needs to be demonstrated in a real setting.
 
@@ -269,7 +269,7 @@ Errors in one level of the model may cascade into the other nested levels. For e
 
 ##Evaluation scenarios for data visualization
 
-Lam et al. (2011) provides an overview of multiple evaluation scenarios. The overview was the result of a literature review of visualization study goals over 800 visualization publications. Each evaluation scenario has associated goals. The goal of the evaluation should determine the methods used in the evaluation. 
+Lam et al. (2012) provides an overview of multiple evaluation scenarios. The overview was the result of a literature review of visualization study goals over 800 visualization publications. Each evaluation scenario has associated goals. The goal of the evaluation should determine the methods used in the evaluation. 
 
 The scenarios are sorted into those for __understanding data analysis__:
 
@@ -286,6 +286,11 @@ and for __understanding visualizations__:
 
 Lam et al. defines an important first step in establishing a reference base of scenarios with examples. 
 
+Evaluation is not restricted to just visualizations, but also on the processes of data analysis that visualizations support. 
+
+
+
+
 #Sources
 
 Chen, M., Floridi, L., & Borgo, R. (2014). What is visualization really for?. In The Philosophy of Information Quality (pp. 75-93). Springer International Publishing.
@@ -295,6 +300,10 @@ Chen, C., & Yu, Y. (2000). Empirical studies of information visualization: a met
 Chin, D. N., & Crosby, M. E. (2002). Introduction to the special issue on empirical evaluation of user models and user modeling systems. User Modeling and User-Adapted Interaction, 12(2), 105-109.
 
 Cleveland, W. S., & McGill, R. (1984). Graphical perception: Theory, experimentation, and application to the development of graphical methods. Journal of the American statistical association, 79(387), 531-554.
+
+Corbin, J., & Strauss, A. (2014). Basics of qualitative research: Techniques and procedures for developing grounded theory. Sage publications.
+
+Ellis, G., & Dix, A. (2006, May). An explorative analysis of user evaluation studies in information visualisation. In Proceedings of the 2006 AVI workshop on BEyond time and errors: novel evaluation methods for information visualization (pp. 1-7). ACM.
 
 Forsell, C., & Cooper, M. (2014). An introduction and guide to evaluation of visualization techniques through user studies. In Handbook of Human Centric Visualization (pp. 285-313). Springer New York.
 
