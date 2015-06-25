@@ -13,13 +13,17 @@ How can we reliably measure the __goodness__ of a visualization with a framework
 2. the principles of good design
 3. the benefit of the visualization to the end user
 
-The main issue is how to apply the established evaluation conventions from the disciplines that intersect visualization in a way that captures the specific nuance of the information visualization space. For example, Human-computer interaction principles are important in answering the question of how to evaluate visualization tools. In fact, information visualization tools can be a subset of the computer software products and interfaces that usability researchers could evaluate. 
-
 Information visualization is all about facilitating problem solving. That being said, all evaluation should center around the ability of a given visualization tool to help people solve problems. 
 
-Many researchers urge evaluation designers to focus on the __goals__ of the evaluation (Corbin and Strauss 2014, Ellis and Dix 2006, Lam et al. 2012). 
+ A number of different approaches to evaluate and judge the validity of visualizations have been developed, as discussed by Bederson and Shneiderman (2003), Korsar (2003), Ware (2012), Lam et al. (2012), and Isenberg at al. (2013). Visualization paradigms are often assessed heuristically using best design practices as guidelines. For example, a visualization could be evaluated by number of data points and the level of granularity represented \cite{marty_applied_2009} and by types of relationships that can be represented \cite{meirelles_design_2013}. 
 
-Visualization evaluations have increased in number and diversity since 1995 (Lam et al. 2012). Most visualizations trend towards three purposes (or scenarios) evaluation:
+Empirical studies are also employed to measure visualization in terms of human performance.  Many methods used to evaluate visualizations follow conventions followed by the human-computer interaction field. The methods used to evaluate a visualization depend on the goals of the evaluation, such as a focus on the visualization itself or a focus on the analytic process the visualization supports \cite{lam2012empirical}. 
+
+Isenberg et al. (2013) categorize evaluation approaches into slightly different categories: science evaluation, and design evaluation. . The visualization community borrows methods from these two disciplines in evaluating visualizations. The scientific approach focuses on building a representational model of the problem space that is reproducible, whereas the design approach focuses on the goal of aiding the user through maximizing usability and functionality (Isenberg 2013).  
+
+Many researchers urge evaluation designers to focus on the __goals__ of the evaluation (Corbin and Strauss 2014, Ellis and Dix 2006, Lam et al. 2012). The goals of an evaluation should determine which methods are used to evaluate visualizations.  
+
+Information visualization evaluations have increased in number and diversity since 1995 (Lam et al. 2012). Most visualizations trend towards three purposes (or scenarios) evaluation:
 
 - Evaluating user performance
 - Evaluating user experience
@@ -38,9 +42,9 @@ These types of evaluation tend to be lengthier, more costly, and have more quali
 
 There is also a resounding call for an establishment of a consistent, repeatable framework for choosing methods to conduct visualization evaluations (Chen et al. 2000, Munzner 2009, Lam et al. 2012, Scholtz et al. 2013). 
 
-#Previous approaches
+#Theoretical approaches
 
-First, I'll describe previous approaches to creating visualization evaluations, mainly theoretical and foundational to visualization literature. I mainly focus on the literature that applies to a general evaluation of visualizations, both novel and established. 
+First, I'll describe theoretical and foundational approaches to evaluating visualization. I mainly focus on the literature that applies to a general evaluation of visualizations. 
 
 ##Model of Graphical Perception
 
@@ -78,7 +82,7 @@ Facts can be expressed if the graphic encodes only and all the facts in the set.
 
 ##Efficiency and Effectiveness
 
-Chen et al. (2014) introduce the measures of efficiency and effectiveness for evaluating visualizations:
+Chen et al. (2014) use the measures of efficiency and effectiveness for evaluating visualizations:
 
 __Effectiveness__ is the correctness of accomplishing a task.
 
@@ -149,21 +153,17 @@ The VAST Challenge sidesteps taking the costly step of testing prototype systems
 
 With this approach, the usability of systems is not thoroughly isolated. Developers are entrenched in the inner workings and nuances of the system. It is hard to determine the usability of a system without the appropriate end users. 
 
-# Critique of current approaches
+# Discussion of current approaches
 
 ##Meta-analysis of current approaches
 
-Chen et al. (2000) conducted a meta-analysis of empirical information visualiation studies
-
-###Users, tasks, tools
-
-Chen et al. (2000) describe three aspects of information visualization: 
+Chen et al. (2000) conducted a meta-analysis of empirical information visualiation studies.Three aspects of information visualization are described: 
 
 __Users__: The role of differences between people in the context of a problem space supported by visual analytics
 __Tasks__: Design of studies concerning visual analytics
 __Tools__: Variety of design options for visualizations in a study
 
-###Accuracy and efficiency 
+###Themes in Evaluation 
 
 Chen et al. (2000) utilize _accuracy_ and _efficiency_ measures as dependent variables in their meta-analysis. 
 
@@ -176,6 +176,32 @@ __Accuracy__ measures include:
 __Efficiency__ measures include:
 - average time of completion
 - performance time
+
+Plaisant (2004) found four main themes of visualization evaluation:
+- __Controlled experiments__ comparing design elements
+- __Usability evaluation__ of a tool
+- __Controlled experiments__ comparing two or more tools
+- __Case studies__ of tools in realistic settings
+
+We can also sort studies by their use of theoretical or practical evaluation techniques: 
+__Empirical__: Usability testing and controlled experiments. Appear to be at the core of evaluation (Chin et al. 2002). 
+__Heuristic__: Expert review according to established guidelines
+
+As mentioned above, Lam et al. describes evaluations as following one of seven (or more) goal-oriented scenarios:
+
+The scenarios are sorted into those for __understanding data analysis__:
+
+- __Understanding environments and work practices__ - Glean design insight through gaining a better understanding of the "work, analysis, or information processing practices by a given group of people with or without software use" (Lam et al. 2012)
+- __Evaluating visual data analysis and reasoning__ - Assesment of how a visualization tool "supports analysis and reasoning about data and helps to derive relevant knowledge in a given domain" (Lam et al. 2012)
+- __Evaluating communication through visualization__ - Assessment of "communicative value of a visualization or visual representation in regards to goals such as teaching/learning, idea presentation, or casual use" (Lam et al. 2012)
+- __Evaluating collaborative data analysis__ - Understanding the extent to which a visualization tool "supports collaborative data analysis by groups of people"
+
+and for __understanding visualizations__: 
+
+- __Evaluating user performance__ - Objectively measuing how specific features of a visualization affect the performance of people using a system
+- __Evaluating user experience__ - Eliciting "subjective feedback and opinions on a visualization tool" (Lam et al. 2012)
+- __Evaluating visualization algorithms__ - Capturing and mesuring "characteristics of a visualization algorithm" (Lam et al. 2012)
+
 
 ###Recommendations for experimental design
 
@@ -198,21 +224,10 @@ Chen et al. (2000) also mention the Text REtrieval Conference (cosponsored by th
 
 Desinging realistic and practical tasks is a challenging issue in the design of informatoin visualization evaluation. A need for the development of task-feature taxonomies is also needed. This development is contingent on the an understanding of how users utilize visualozation capabilities. 
 
+
 ##Challenges of evaluation
 
 Plaisant (2004) points out the challenges in evaluating information visualization. =(^.^=) meow. The critiques are mainly intented on improving the measurement and communication of the utility of new tools developed by researchers. 
-
-###Themes in evaluation
-
-Plaisant (2004) found four main themes of visualization evaluation:
-- __Controlled experiments__ comparing design elements
-- __Usability evaluation__ of a tool
-- __Controlled experiments__ comparing two or more tools
-- __Case studies__ of tools in realistic settings
-
-We can also sort studies by their use of theoretical or practical evaluation techniques: 
-__Empirical__: Usability testing and controlled experiments. Appear to be at the core of evaluation (Chin et al. 2002). 
-__Heuristic__: Expert review according to established guidelines
 
 ###Matching tools with real problems
 Utility of a tool needs to be demonstrated in a real setting.
@@ -293,13 +308,15 @@ and for __understanding visualizations__:
 - __Evaluating user experience__ - Eliciting "subjective feedback and opinions on a visualization tool" (Lam et al. 2012)
 - __Evaluating visualization algorithms__ - Capturing and mesuring "characteristics of a visualization algorithm" (Lam et al. 2012)
 
-Lam et al. defines an important first step in establishing a reference base of scenarios with examples. The continuation of the coding process of papers is encouraged, with the full list of papers coded [hosted here](http://bit.ly/7-vis-scenarios).
-
 Evaluation is not restricted to just visualizations, but also on the processes of data analysis that visualizations support. 
 
-Exploring and creating evaluations is given as a process involving:
+Exploring and creating evaluations using a goal driven approach is given as a process involving:
 1. __Choosing a focus__
-2. 
+2. __Picking suitable scenarios__
+3. __Considering applicable approaches__
+4. __Creating evaluation design and planned analyses__
+
+Lam et al. defines an important first step in establishing a reference base of scenarios with examples. The continuation of the coding process of papers is encouraged, with the full list of papers coded [hosted here](http://bit.ly/7-vis-scenarios).
 
 #Sources
 
