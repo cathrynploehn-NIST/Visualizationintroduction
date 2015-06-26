@@ -3,10 +3,17 @@ Resources
 
 ##Community
 
-Eurographics/IEEE Symposium on VIsualization (EuroVis)
-IEEE Information Visualization (InfoVis)
-IEEE Visual Analytics Science and Technology (VAST)
-Palgrave's Journal of Information Visualization (IVS)
+###Visualization
+
+- Eurographics/IEEE Symposium on VIsualization (EuroVis)
+- IEEE Information Visualization (InfoVis)
+- IEEE Visual Analytics Science and Technology (VAST)
+- Palgrave's Journal of Information Visualization (IVS)
+
+###Visualization Evaluation
+- [EuroVis workship on Reproducibility, Verification, and Validation in Visualization (EuroRV3)](http://www.eurorvvv.org/)
+
+- [BELIV Workshop](http://beliv.cs.univie.ac.at/about.php)
 
 ##Foundational Work
 

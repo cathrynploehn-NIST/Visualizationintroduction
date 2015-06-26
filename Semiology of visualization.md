@@ -42,6 +42,14 @@ Shneiderman (1996)also defines seven tasks to accompany these data types:
 - __History__
 - __Extract__
 
+## The context
+
+Chen et al. (2000) describes three aspects of information visualization: 
+
+__Users__: The role of differences between people in the context of a problem space supported by visual analytics
+__Tasks__: Design of studies concerning visual analytics
+__Tools__: Variety of design options for visualizations in a study
+
 ##Visualization vocabulary
 
 Card and Mackinlay (1997) introduce an visual vocabulary to describe visualization. 

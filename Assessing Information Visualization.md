@@ -9,15 +9,16 @@ How can we best measure and evaluate information visualizations?
 A few questions come to mind:
 What makes a visualization __good__?
 How can we reliably measure the __goodness__ of a visualization with a framework that captures:
+
 1. the context of the problem solving space
 2. the principles of good design
 3. the benefit of the visualization to the end user
 
 Information visualization is all about facilitating problem solving. That being said, all evaluation should center around the ability of a given visualization tool to help people solve problems. 
 
- A number of different approaches to evaluate and judge the validity of visualizations have been developed, as discussed by Bederson and Shneiderman (2003), Korsar (2003), Ware (2012), Lam et al. (2012), and Isenberg at al. (2013). Visualization paradigms are often assessed heuristically using best design practices as guidelines. For example, a visualization could be evaluated by number of data points and the level of granularity represented \cite{marty_applied_2009} and by types of relationships that can be represented \cite{meirelles_design_2013}. 
+ A number of different approaches to evaluate and judge the validity of visualizations have been developed, as discussed by Bederson and Shneiderman (2003), Korsar (2003), Ware (2012), Lam et al. (2012), and Isenberg at al. (2013). Visualization paradigms are often assessed heuristically using best design practices as guidelines. For example, a visualization could be evaluated by number of data points and the level of granularity represented (Marty 2009) and by types of relationships that can be represented (Meirelles 2013). 
 
-Empirical studies are also employed to measure visualization in terms of human performance.  Many methods used to evaluate visualizations follow conventions followed by the human-computer interaction field. The methods used to evaluate a visualization depend on the goals of the evaluation, such as a focus on the visualization itself or a focus on the analytic process the visualization supports \cite{lam2012empirical}. 
+Empirical studies are also employed to measure visualization in terms of human performance.  Many methods used to evaluate visualizations follow conventions followed by the human-computer interaction field. The methods used to evaluate a visualization depend on the goals of the evaluation, such as a focus on the visualization itself or a focus on the analytic process the visualization supports (Lam et al. 2012). 
 
 Isenberg et al. (2013) categorize evaluation approaches into slightly different categories: science evaluation, and design evaluation. . The visualization community borrows methods from these two disciplines in evaluating visualizations. The scientific approach focuses on building a representational model of the problem space that is reproducible, whereas the design approach focuses on the goal of aiding the user through maximizing usability and functionality (Isenberg 2013).  
 
@@ -96,14 +97,6 @@ With this approach, the usability of systems is not thoroughly isolated. Develop
 
 # Discussion of current approaches
 
-##Meta-analysis of current approaches
-
-Chen et al. (2000) conducted a meta-analysis of empirical information visualiation studies.Three aspects of information visualization are described: 
-
-__Users__: The role of differences between people in the context of a problem space supported by visual analytics
-__Tasks__: Design of studies concerning visual analytics
-__Tools__: Variety of design options for visualizations in a study
-
 ##Themes in Evaluation 
 
 Plaisant (2004) found four main themes of visualization evaluation:
@@ -120,6 +113,10 @@ __Heuristic__: Expert review according to established guidelines
 
 ####Empirical
 
+Empirical evaluation approaches contain both __qualitative__ (characteristics) and __quantitative__ (measured values) measurement methods. Both types of methods have their own advantages and tradeoffs (Isenberg 2013).  
+
+#####Accuracy and efficiency
+
 Chen et al. (2000) utilize _accuracy_ and _efficiency_ measures as dependent variables in their meta-analysis. 
 
 __Accuracy__ measures include:
@@ -132,6 +129,8 @@ __Efficiency__ measures include:
 - average time of completion
 - performance time
 
+#####Effectiveness and efficiency
+
 Chen et al. (2014) use the measures of efficiency and effectiveness for evaluating visualizations:
 
 __Effectiveness__ is the correctness of accomplishing a task.
@@ -142,6 +141,8 @@ __Efficiency__ is the time taken to accomplish a task. Three variables affect th
 - Human-centric attributes: amount/type of insight to be gained, type of judgement to be made, cognitive load required, etc.
 - __Information delivery attributes__: Medium, display device, type of visual representation, etc. Critical to accomplishing a task efficiently
 
+#####Time
+
 Chen et al. (2014) use "saving time" (rather than the common focus on the vague term "insight") in the forefront of their definition of visualization. They outline some implications of this new focus.
 
 __Measurement__: Time is more readily quantifiable than other terms commonly used to define visualization
@@ -149,6 +150,25 @@ __Empirical studies__: Most empirical studies use the measure of accuracy and re
 __Design optimization__: Most important metric to guide optimization of design of visual systems
 __Theory of visualization__: No fundamental theory of visualization has been reached by consensus. Still, time should be a fundamental component of any theory
 __Practical wisdom__: Helps in the articulation of visualization in terms of a cost-benefit relationship
+
+#####Evaluation scenarios
+
+As mentioned above, Lam et al. (2012) provides an overview of multiple empirical evaluation scenarios. The overview was the result of a literature review of visualization study goals over 800 visualization publications. The results represent a descriptiEach evaluation scenario has associated goals. The goal of the evaluation should determine the methods used in the evaluation:
+
+The scenarios are sorted into those for __understanding data analysis__:
+
+- __Understanding environments and work practices__ - Glean design insight through gaining a better understanding of the "work, analysis, or information processing practices by a given group of people with or without software use" (Lam et al. 2012)
+- __Evaluating visual data analysis and reasoning__ - Assesment of how a visualization tool "supports analysis and reasoning about data and helps to derive relevant knowledge in a given domain" (Lam et al. 2012)
+- __Evaluating communication through visualization__ - Assessment of "communicative value of a visualization or visual representation in regards to goals such as teaching/learning, idea presentation, or casual use" (Lam et al. 2012)
+- __Evaluating collaborative data analysis__ - Understanding the extent to which a visualization tool "supports collaborative data analysis by groups of people"
+
+and for __understanding visualizations__: 
+
+- __Evaluating user performance__ - Objectively measuing how specific features of a visualization affect the performance of people using a system
+- __Evaluating user experience__ - Eliciting "subjective feedback and opinions on a visualization tool" (Lam et al. 2012)
+- __Evaluating visualization algorithms__ - Capturing and mesuring "characteristics of a visualization algorithm" (Lam et al. 2012)
+
+In this paradigm, evaluation is not restricted to just visualizations, but also on the processes of data analysis that visualizations support. 
 
 #####Model of Graphical Perception
 
@@ -174,6 +194,13 @@ The model presents visual operations that are central to visual perception. Thes
 
 ####Heuristic
 
+Many sets of heuristics, or guidelines, have been proposed for evaluating visualizations. Novel heurtistic evaluation techniques for visualizations specifically have been proposed and utilized (Isenberg 2013):
+
+- __Case studies__: Specific forms of case studies in order to measure the impact of visualization tools on the practices of real users. 
+- __Critical inspection/critique__: Domain and non-domain experts review visualization by giving feedback. 
+
+#####Effectiveness and expressiveness
+
 Mackinlay (1986) used two terms for the evaluation of evaluating graphical designs:
 
 __Effectiveness__ criteria "determine whether a graphical language exploits the capabilities of the output medium and the human visual system" (Mackinlay 1986).
@@ -183,25 +210,6 @@ The criteria for effectiveness may be based on a variety of factors. For example
 __Expressiveness criteria__ "determine whether a graphical language can express the desired information" (Mackinlay 1986).
 
 Facts can be expressed if the graphic encodes only and all the facts in the set.
-
-###Evaluation scenarios
-
-As mentioned above, Lam et al. (2012) provides an overview of multiple evaluation scenarios. The overview was the result of a literature review of visualization study goals over 800 visualization publications. The results represent a descriptiEach evaluation scenario has associated goals. The goal of the evaluation should determine the methods used in the evaluation:
-
-The scenarios are sorted into those for __understanding data analysis__:
-
-- __Understanding environments and work practices__ - Glean design insight through gaining a better understanding of the "work, analysis, or information processing practices by a given group of people with or without software use" (Lam et al. 2012)
-- __Evaluating visual data analysis and reasoning__ - Assesment of how a visualization tool "supports analysis and reasoning about data and helps to derive relevant knowledge in a given domain" (Lam et al. 2012)
-- __Evaluating communication through visualization__ - Assessment of "communicative value of a visualization or visual representation in regards to goals such as teaching/learning, idea presentation, or casual use" (Lam et al. 2012)
-- __Evaluating collaborative data analysis__ - Understanding the extent to which a visualization tool "supports collaborative data analysis by groups of people"
-
-and for __understanding visualizations__: 
-
-- __Evaluating user performance__ - Objectively measuing how specific features of a visualization affect the performance of people using a system
-- __Evaluating user experience__ - Eliciting "subjective feedback and opinions on a visualization tool" (Lam et al. 2012)
-- __Evaluating visualization algorithms__ - Capturing and mesuring "characteristics of a visualization algorithm" (Lam et al. 2012)
-
-In this paradigm, evaluation is not restricted to just visualizations, but also on the processes of data analysis that visualizations support. 
 
 ###Science vs design
 
@@ -287,7 +295,7 @@ Utility of a tool needs to be demonstrated in a real setting.
 
 	- __The same data from different perspectives__: Studies tend to observe users for a short period of time using a specific tool or visualization. However, the process of discovery using information visualization in practice involves longer stretches of time with many different tools, looking at a dataset from different points of views. Longitudinal studies and domain experts are beneficial for realistic measurement, but often difficult to integrate into studies. 
 
-	- __Answering unasked questions__: One of the benefits of information is the enarthing and answering of new, unasked questions. However, evaluations tend to measure the performance of specified, pre canned questions. Plaisant (2004) suggests allowing the users to explore the data on their own as one possible remedy.
+	- __Answering unasked questions__: One of the benefits of information is the unearthing and answering of new, unasked questions. However, evaluations tend to measure the performance of specified, pre canned questions. Plaisant (2004) suggests allowing the users to explore the data on their own as one possible remedy.
 
 	- __Chances of discovery__: The chance of a payoff, in other words. A measure of estimating the chances of discovering a trend or phenomena in the data has not been implmented in many studies. Furthermore, the ripple effect of an increased awareness a visualization may bring (such as network administrators being more aware of network traffic) should also be measured. 
 
@@ -328,6 +336,8 @@ Chicago
 Lam, H., Bertini, E., Isenberg, P., Plaisant, C., & Carpendale, S. (2012). Empirical studies in information visualization: Seven scenarios. Visualization and Computer Graphics, IEEE Transactions on, 18(9), 1520-1536.
 
 Mackinlay, J. (1986). Automating the design of graphical presentations of relational information. Acm Transactions On Graphics (Tog), 5(2), 110-141.
+
+Marty, R. (2009). Applied security visualization (pp. 21-65). Upper Saddle River: Addison-Wesley.
 
 Munzner, T. (2009). A nested model for visualization design and validation. Visualization and Computer Graphics, IEEE Transactions on, 15(6), 921-928.
 Chicago	
