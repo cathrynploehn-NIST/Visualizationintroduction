@@ -1,4 +1,4 @@
-Assessing Information Visualization
+ Assessing Information Visualization
 =======
 
 >"One of our roles as information visualization researchers is to provide convincing evidence of utility...[which] presents special challenges for information visualization" 
@@ -199,6 +199,16 @@ Many sets of heuristics, or guidelines, have been proposed for evaluating visual
 - __Case studies__: Specific forms of case studies in order to measure the impact of visualization tools on the practices of real users. 
 - __Critical inspection/critique__: Domain and non-domain experts review visualization by giving feedback. 
 
+#####Case studies
+
+Perer and Shneiderman (2009) explore long term case studies, inspired by Multidimensional In-Depth Long-Term Case Studies (MILCs) (Shneiderman and Plaisant 2006). Perer and Shneiderman (2009) give a long-term case study template with five parts:
+
+- __Interview__: Figuring out the intentions of the domain experts, which is one benchmark of success. 
+- __Training__: Users attend a training session with tool developers and receive a training manual.
+-__Early use (2 - 4 weeks)__: Domain experts begin using the tool in their work place. Observers visit the workplace to interview on progress. Developers address user needs by adding features to the visualization tool and provide technical support.
+-__Mature use__: Somewhat "ethnographic" style observation. No additional help or upgrades from developers.
+-__Outcome__: Exit interview with domain experts. Explain how software impacted research. 
+
 #####Effectiveness and expressiveness
 
 Mackinlay (1986) used two terms for the evaluation of evaluating graphical designs:
@@ -279,6 +289,27 @@ Lam et al. (2012) assert that the goal of an evaluation should drive the selecti
 
 4. __Creating evaluation design and planned analyses__
 
+Isenberg et al. (2013) give five recommendations for improving the visualization evaluation community: 
+
+- __increased focus on process evaluation scenarios__: Isenberg et al. (2013) found that evaluations focusing on the processes visualizations support are not conducted as much as they should be.  Process evaluations, as described above, are very critically needed because they are _very relevant to the underlying goal and purpose of including visualizations in the data analysis process_. The visibility of the results from these scenario types should have increased visibility in the community. Papers should either draw clear connections to scientific problems or make clear connections to an existing tool. Process evaluation scenarios, help researchers understand:
+  - audience problems
+  - how visualizations understand audience problems
+  - how people communicate using visualization
+  - how visualizations support collaborative analysis
+- __better understanding of the qualitative approach__: Qualitative methodology is more appropriate in order to understand "fuzzy" and "ill-defined" domain problems that the people who use visualizations face. It allows researchers to capture and maximize the realism, not generalizability, of findings.  
+- __avoid demand characteristic effects__: a side effect of participants wishing researchers well is a bias in feedback. Pre-defined questions should be used in user interviews.
+- __choose number of participants appropriately__: Special consideration should be used when choosing the number of participants in an evaluation. For example, the number of participants in low-level tasks should be determined with a power analysis. The number of domain experts can be low in an evaluation, particularly when feedback becomes redundant.  
+- __increase the rigor of reporting methodology in white papers__: Without accurate, rigorous reporting on evaluation methodology in papers, it is hard to determine the quality and impact of the work. Reporting methodology in a rigorous way will improve the progress of the field. The following steps should be taken to report visualization evaluation with enough detail:
+- _report who participated_
+- _report collaboration details_
+- _report study protocols_
+- _report how many people participated_
+- _report controlled experiments with rigor_
+- _report qualitative result inspections with more rigor_
+- _Circumvent paper size restrictions with supplemental material_
+ 
+Perer and Shneiderman (2009) also recommend against controlled studies due to their failure to capture the complexity of visual analytic tasks. Visual analytic systems, or visualizations, are meant to be exploratory, often with unclear goals and outcomes. In this regard Perer and Shneiderman (2009) heavily argue for the inclusion of long-term case studies as a good way to evaluate visualization tools.
+
 ##Challenges of evaluation
 
 Plaisant (2004) points out the challenges in evaluating information visualization. =(^.^=) meow. The critiques are mainly intented on improving the measurement and communication of the utility of new tools developed by researchers. 
@@ -342,6 +373,10 @@ Marty, R. (2009). Applied security visualization (pp. 21-65). Upper Saddle River
 Munzner, T. (2009). A nested model for visualization design and validation. Visualization and Computer Graphics, IEEE Transactions on, 15(6), 921-928.
 Chicago	
 
+Perer, A., & Shneiderman, B. (2009). Integrating statistics and visualization for exploratory power: From long-term case studies to design guidelines. IEEE Computer Graphics and Applications, (3), 39-51.
+Chicago	
+
 Plaisant, C. (2004, May). The challenge of information visualization evaluation. In Proceedings of the working conference on Advanced visual interfaces (pp. 109-116). ACM.
 
 Scholtz, J., Plaisant, C., Whiting, M., & Grinstein, G. (2013). Evaluation of visual analytics environments: The road to the Visual Analytics Science and Technology challenge evaluation methodology. Information Visualization, 1473871613490290.
+
