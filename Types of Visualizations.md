@@ -1,5 +1,6 @@
 [< Back to home](README.md)
 
+
 #Types of Visualizations
 ##Hierarchical
 

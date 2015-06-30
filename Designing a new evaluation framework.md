@@ -28,10 +28,15 @@ But perhaps the most important question to answer, as asserted by Lam et al. (20
 
 The goal of our evaluation will drive the goal of our visualization evaluation, and determine which methods to use in order to measure the success of the visualizations submitted to the evaluation. 
 
-There has been a recent call to focus research efforts on the _context_ of visualizations. Perer and Shneiderman (2009), Shneiderman and Plaisant (2006), Isenberg (2013)
+There has been a call in the visualization community to focus research efforts on the _context_ of visualizations: Perer and Shneiderman (2009), Shneiderman and Plaisant (2006), Isenberg (2013)
 
 [< Back to home](README.md)
 
 # Sources
 
 Lam, H., Bertini, E., Isenberg, P., Plaisant, C., & Carpendale, S. (2012). Empirical studies in information visualization: Seven scenarios. Visualization and Computer Graphics, IEEE Transactions on, 18(9), 1520-1536.
+
+Perer, A., & Shneiderman, B. (2009). Integrating statistics and visualization for exploratory power: From long-term case studies to design guidelines. IEEE Computer Graphics and Applications, (3), 39-51.
+Chicago	
+
+Shneiderman, B., & Plaisant, C. (2006, May). Strategies for evaluating information visualization tools: multi-dimensional in-depth long-term case studies. In Proceedings of the 2006 AVI workshop on BEyond time and errors: novel evaluation methods for information visualization (pp. 1-7). ACM.

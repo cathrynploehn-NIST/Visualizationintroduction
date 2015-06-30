@@ -3,15 +3,13 @@
 Guiding Principles of Information Visualization
 ====
 
-##Principles of Quality Visualizations
-
-In _The Elements of Graphing Data_ by William Cleveland, basic elements of graph construction are discussed that should enhance the ability of a graph to show the structure of the data.
+##Principles of quality visualizations
 
 Visualization involves the process of encoding and decoding visual information. Graphical perception is the decoding of the information in a graph (Cleveland 1994).
 
-###Producing Effective Visualizations
+###Producing effective visualizations
 
-####What type of visualization should I use?
+####Accuracy of visualization building blocks
 
 Cleveland and McGill (1984) ranked and empirically validated the accuracy of quantitative perceptual tasks:
 
@@ -26,7 +24,10 @@ Mackinlay (1986) extended this ranking to include non-quantitative information:
 
 ####Chartjunk and Data Ink
 
-TODO
+Tufte introduced two visualization principles: data ink and chart junk
+
+__Data-ink__: "The non-erasable core of a graphic" (Tufte 2001). The most effective visualizations have the most data ink in relation to the rest of the graphic. 
+__Chart junk__: "non-data ink or redundant data-ink" (Tufte 2001). Decorative elements in a graphic that clutter and descract from the data. 
 
 ####Clear vision
 
@@ -72,6 +73,12 @@ Cleveland (1994) and Tufte (2001) assert that a large amount of quanitiative dat
 
 ###Producing Effective Interactive Visualizations
 
+Shneiderman (1996) defined a fundmental design guideline for interactive visualizations: 
+
+__Visual Information Seeking Mantra__: Overview first, zoom and filter, then details on demand. 
+
+The mantra puts together Shneiderman's taxonomy of tasks to interact with data, as described in [Semiology of visualization](Semiology of visualization.md).
+
 Shneiderman's principles of direct manipulation (1983):
 
 - __visually represent__ the possibilities for action
@@ -88,7 +95,7 @@ Ahlberg and Shneiderman (1994) introduced more principles for interactive visual
 	- Rapid filtering
 	- progressive refinement of search parameters
 	- continuous reformulation of goals
-	- visual scanning to identify results
+	- visual scanning to identify results 
 
 ####Tight coupling
 
@@ -104,6 +111,7 @@ Effective use of tight coupling includes (Ahlberg and Shneiderman 1994):
 - users can view details on demand
 
 [< Back to home](README.md)
+
 
 #Sources
 
@@ -123,4 +131,6 @@ Schneiderman, B. (1983). Direct Manipulation: A step beyond programming language
 
 Shneiderman, B. (1992). Designing the user interface: strategies for effective human-computer interaction (Vol. 2). Reading, MA: Addison-Wesley.
 
-Tufte, Edward R. 2001. The Visual Display of Quantitative Information. 2nd edition. Cheshire, Conn: Graphics Press
+Shneiderman, B. (1996, September). The eyes have it: A task by data type taxonomy for information visualizations. In Visual Languages, 1996. Proceedings., IEEE Symposium on (pp. 336-343). IEEE.
+
+Tufte, Edward R. (2001). The Visual Display of Quantitative Information. 2nd edition. Cheshire, Conn: Graphics Press
