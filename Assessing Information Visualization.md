@@ -1,3 +1,6 @@
+[< Back to home](README.md)
+
+
  Assessing Information Visualization
 =======
 
@@ -342,6 +345,7 @@ Isenberg et al. (2013) identifies different challenges in the realm of visualiza
 
 The [EuroVis workship on Reproducibility, Verification, and Validation in Visualization (EuroRV3)](http://www.eurorvvv.org/) has been created to address some of the evaluation issues in visualziation. The [BELIV Workshop](http://beliv.cs.univie.ac.at/about.php) a part of the IEEE VIS conference, focuses on discussion of "novel evaluation methods for visualizations."  
 
+[< Back to home](README.md)
 
 #Sources
 

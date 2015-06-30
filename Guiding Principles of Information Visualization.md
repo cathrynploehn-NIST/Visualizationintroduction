@@ -1,4 +1,7 @@
-#Guiding Principles of Information Visualization
+[< Back to home](README.md)
+
+Guiding Principles of Information Visualization
+====
 
 ##Principles of Quality Visualizations
 
@@ -100,6 +103,7 @@ Effective use of tight coupling includes (Ahlberg and Shneiderman 1994):
 - progressive refinement of data display parameters
 - users can view details on demand
 
+[< Back to home](README.md)
 
 #Sources
 

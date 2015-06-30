@@ -13,12 +13,14 @@ This resource gives a summary of information visualization in the following part
 
 ##Contents
 
+####1. What is visualization?
 [Guiding Principles of Information Visualization](Guiding Principles of Information Visualization.md)
 
 [Semiology of visualization](Semiology of visualization.md)
 
 [Types of Visualizations](Types of Visualizations.md)
 
+####2. Evaluating visualization
 [Assessing information visualization](Assessing Information Visualization.md)
 
 [Designing a new evaluation framework](Designing a new evaluation framework.md)
@@ -69,6 +71,8 @@ Visualizations are powerful because it they are tools that can "strengthen our m
 Chen et al. (2014) also point out one of the most attractive, measureable features of visualization from a cost-benefit point of view:
 
 _Visualization saves time._ 
+
+[< Jump to top of page](README.md)
 
 #Disclaimer
 

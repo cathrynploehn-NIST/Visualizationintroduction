@@ -1,3 +1,5 @@
+[< Back to home](README.md)
+
 #Types of Visualizations
 ##Hierarchical
 
@@ -27,7 +29,7 @@ Flow
 Sankey
 Flowchart
 
-##Changes over time
+##Temporal
 
 ![Visualizing change over time](/images/visualizationexamples_change.png)
 [From flowingdata](http://flowingdata.com/)
@@ -45,3 +47,5 @@ Dot plot
 
 Multidimensional scaling
 Box plots
+
+[< Back to home](README.md)

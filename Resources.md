@@ -1,3 +1,5 @@
+[< Back to home](README.md)
+
 Resources
 ====
 
@@ -60,3 +62,5 @@ __How to Lie with Maps (2nd Edition)__ - Mark Monmonier
 
 #Misc
 - [An Introduction and Guide to Evaluation of Visualization Techniques Through User Studies](http://link.springer.com/chapter/10.1007/978-1-4614-7485-2_11)
+
+[< Back to home](README.md)s

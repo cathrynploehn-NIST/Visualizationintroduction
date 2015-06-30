@@ -1,3 +1,5 @@
+[< Back to home](README.md)
+
 #Semiology of visualization
 
 > "Everything points to the conclusion that the phrase 'the language of art' is more than a loose metaphor, that even to describe the visible world in images we need a developed system of schemata" \- E. H. Gombrich, _Art and Illustion, 1959_
@@ -32,7 +34,7 @@ Shneiderman defines seven data types:
 
 Which can be distilled down to two overarching data types (__network__ and __dimensional__). Data can also be a mixture of these types.
 
-Shneiderman (1996)also defines seven tasks to accompany these data types:
+Shneiderman (1996) also defines seven tasks to accompany these data types:
 
 - __Overview__
 - __Zoom__
@@ -67,6 +69,7 @@ The vocabulary builds upon previous work by Bertin (1983) and Mackinlay (1986).
 
 Visualizations establish mappings between data and the visual vocabulary described above (Card and Mackinlay).
 
+[< Back to home](README.md)
 
 #Sources
 Bertin, J. (1983). Semiology of graphics: diagrams, networks, maps.

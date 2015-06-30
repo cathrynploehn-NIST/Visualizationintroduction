@@ -1,7 +1,7 @@
+[< Back to home](README.md)
+
 Designing a new evaluation framework
 ====
-
-
 
 #Important questions
 
@@ -13,7 +13,7 @@ For example, the same data can be represented many different ways. The effective
 
 Can we tease measurement of the visualization from the context of use? Certainly specific technologies can be measured (such as visualization for the browser, or for mobile devices).
 
-Some questions needed to be answered:
+Some questions that need to be answered:
 
 __Abstract__
 - Should a prospective visualization task emulate real world application/use case?
@@ -27,6 +27,10 @@ __Logistical__
 But perhaps the most important question to answer, as asserted by Lam et al. (2012) is _what is the __goal__ of the evaluation_? 
 
 The goal of our evaluation will drive the goal of our visualization evaluation, and determine which methods to use in order to measure the success of the visualizations submitted to the evaluation. 
+
+There has been a recent call to focus research efforts on the _context_ of visualizations. Perer and Shneiderman (2009), Shneiderman and Plaisant (2006), Isenberg (2013)
+
+[< Back to home](README.md)
 
 # Sources
 
