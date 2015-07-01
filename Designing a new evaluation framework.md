@@ -11,8 +11,6 @@ The purpose of information visualization is to function as a _problem solving to
 
 For example, the same data can be represented many different ways. The effectiveness of a visualization is tied into _which_ representation strategy is chosen to fit the task. 
 
-Can we tease measurement of the visualization from the context of use? Certainly specific technologies can be measured (such as visualization for the browser, or for mobile devices).
-
 Some questions that need to be answered:
 
 __Abstract__
@@ -28,7 +26,21 @@ But perhaps the most important question to answer, as asserted by Lam et al. (20
 
 The goal of our evaluation will drive the goal of our visualization evaluation, and determine which methods to use in order to measure the success of the visualizations submitted to the evaluation. 
 
-There has been a call in the visualization community to focus research efforts on the _context_ of visualizations: Perer and Shneiderman (2009), Shneiderman and Plaisant (2006), Isenberg (2013)
+#Recommendation for an evalaution framework 
+
+In developing an data science evaluation framework that includes visualization, I propose a focus on the _data analysis processes that visualizations support_. The proposed goal of a visualization task within this framework is to measure a tool's ability to support visual analysis and reasoning about data . 
+
+Focusing on measuring how a visualization supports the _data analysis process_ allows an emphasis on the practical application of visualization technology. Grounding an evaluation in realism is ideal for promoting technology transfer. Furthermore, focusing on the realistic role of visualization would promote the development of visualization methodology and technology to support real-life tasks and domains.
+
+There has been a call in the visualization community to focus research efforts on the _context_ of visualizations: Perer and Shneiderman (2009), Shneiderman and Plaisant (2006), Isenberg (2013). Specifically, the use of __case studies__  is common place to promote the transfer of technology into practical applications (Lam et al. 2012). Case studies are often emplyed by the visualization community to measure how well visualizations fit into the data analysis process. 
+
+The scale and scope of case studies used can vary. For example, most case studies consist of a domain expert interacting with a visualization to answer provided benchmark questions (Lam et al. 2012).
+
+Other methodologies that are used to evaluate process include __laboratory obersveration and interviews__ and __controlled experiments__. Metrics include both quantitative and qualitative metrics. For example, time could play an important role in a laboratory experiment (Chen et al. 2014).  
+
+##Alternatives
+
+Instead of focusing on process, it also may be useful to switch focus to lower-level experiments entirely, such as evaluations that measure user performance of pieces of a visualization or evaluating user experience. 
 
 [< Back to home](README.md)
 

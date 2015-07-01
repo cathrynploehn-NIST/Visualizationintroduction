@@ -148,11 +148,11 @@ __Efficiency__ is the time taken to accomplish a task. Three variables affect th
 
 Chen et al. (2014) use "saving time" (rather than the common focus on the vague term "insight") in the forefront of their definition of visualization. They outline some implications of this new focus.
 
-__Measurement__: Time is more readily quantifiable than other terms commonly used to define visualization
-__Empirical studies__: Most empirical studies use the measure of accuracy and response time
-__Design optimization__: Most important metric to guide optimization of design of visual systems
-__Theory of visualization__: No fundamental theory of visualization has been reached by consensus. Still, time should be a fundamental component of any theory
-__Practical wisdom__: Helps in the articulation of visualization in terms of a cost-benefit relationship
+- __Measurement__: Time is more readily quantifiable than other terms commonly used to define visualization
+- __Empirical studies__: Most empirical studies use the measure of accuracy and response time
+- __Design optimization__: Most important metric to guide optimization of design of visual systems
+- __Theory of visualization__: No fundamental theory of visualization has been reached by consensus. Still, time should be a fundamental component of any theory
+- __Practical wisdom__: Helps in the articulation of visualization in terms of a cost-benefit relationship
 
 #####Evaluation scenarios
 

@@ -3,35 +3,56 @@ Information Visualization Measurement and Evaluation
 
 _Cathryn Ploehn_
 
-This resource gives a summary of information visualization in the following parts: 
+This resource gives a summary of information visualization including: 
 
-- An overview meant for researchers outside the visualization field, 
-- approaches to measurement and evaluation (or lack and need of such), 
-- and a proposed visualization task in the traffic domain
+- An overview of information visualization meant for _researchers_ outside the visualization field, 
+- approaches (or lack thereof) to measurement and evaluation of information visualization 
 
 > "Graphics is the visual means of resolving logical problems" - Jacques Bertin
 
 ##Contents
 
 ####1. What is visualization?
+
 [Guiding Principles of Information Visualization](Guiding Principles of Information Visualization.md)
 
 [Semiology of visualization](Semiology of visualization.md)
 
-[Types of Visualizations](Types of Visualizations.md)
+<!-- [Types of Visualizations](Types of Visualizations.md) -->
 
 ####2. Evaluating visualization
+
 [Assessing information visualization](Assessing Information Visualization.md)
 
 [Designing a new evaluation framework](Designing a new evaluation framework.md)
+
+####3. Other
+
+[Resources](Resources.md)
+
+=====
+
+#First, an introduction
+
+Information is everywhere. Data is everywhere. 
+
+![Dilbert: big data](images/dt120729.jpg) [dilbert, 2012](http://dilbert.com/strip/2012-07-29)
+
+>Everywhere you look, the quantity of information in the world is soaring. According to one estimate, mankind created 150 exabytes (billion gigabytes) of data in 2005. This year, it will create 1,200 exabytes. [The Economist, 2010](http://www.economist.com/node/15579717)
+
+Apparently we've been drowning in data since at least 1989 (Wurman 1989). Shouldn't looking through all this data be "a joyous experience"? (Shneiderman 1996). 
+
+So what can be done? Human visual perception is powerful - why not leverage it when analyzing data? We can perceive images and derive concepts from them in as little as 13 milliseconds (Potter et al. 2014). Beyond just fast perception, can we use images to amplify cognition and understanding? This is where visualization comes in.
 
 ##What is visualization?
 
 Visualization has become a loaded word. 
 
-![According to the graph, human statements become more inane depending on cat proximity](/images/cat_proximity.png) _xkcd_
+In the classic work _Readings in information visualization: using vision to think_, Card et al. (1999) refer to data visualization and information visualization as:
 
-Chen et al. (2014) define visualization as:
+> "the use of computer-supported, interactive, visual representations of abstract data to amplify cognition."
+
+This definition is similar to a more recent definition by Chen et al. (2014):
 
 > "__Visualization__ is a study of transformation from data to visual representations in order to facilitate effective and efficient cognitive processes in performing tasks involving data."
 
@@ -51,16 +72,25 @@ And we use (sometimes cryptic) information visualization to discover patterns in
 
 In addition to focusing on _computer supported data visualization_, I will also focus on _information visualization_. (Although some concepts may also apply to knowledge visualization)
 
-Card et al. (1999) refer to data visualization and information visualization as:
-
-> "the use of computer-supported, interactive, visual representations of abstract data to amplify cognition."
-
 ##Why information visualization is important
 
-The display of data is a potentially __powerful tool for data analysis__. 
+The display of data is a potentially __powerful tool for data analysis__. This is where the very capable human visual perceptive systems come in to play. 
 
-Visualization \-
-- allows thorough __exploration of the structure of data__ (Cleveland 1994). Many techniques of data analysis, which leverage data reduction - reduce the data to a handful of statistics. 
+Many researchers talk about the benefits of visualization in terms of its ability to amplify our cognition of and increase insights gleaned from data (Chen at al. 2014, Meirelles 2013).
+
+For example, this is what visualization can do to aid our congition (Meirelles 2013):
+- record information
+- convey meaning
+- increase working memory
+- facilitate search
+- facilitate discovery
+- support perceptual inference
+- enhance detection and recognition
+- provide models of actual and theoretical worlds
+- provide manipulation of data
+
+What about the data specifically? Visualization \-
+- allows thorough __exploration of the structure of data__ (Cleveland 1994). In contrast, many techniques of data analysis, which leverage data reduction - reduce the data to a handful of statistics. 
 - is a form of data analysis that can be leveraged to "convey the wealth of information that exists in data" (Cleveland 1994). 
 - allows for the encounter or surprises of the data, "yielding conclusions to questions not originally asked" (Cleveland 1994). 
 
@@ -96,8 +126,16 @@ Cleveland, W. S., & McGill, R. (1984). Graphical perception: Theory, experimenta
 
 Mackinlay, J. (1986). Automating the design of graphical presentations of relational information. Acm Transactions On Graphics (Tog), 5(2), 110-141.
 
+Meirelles, I. (2013). Design for Information: An Introduction to the Histories, Theories, and Best Practices Behind Effective Information Visualizations. Rockport publishers.
+
 Norman, D. A. (1993). Things that make us smart: Defending human attributes in the age of the machine. Basic Books.
+
+Potter, M. C., Wyble, B., Hagmann, C. E., & McCourt, E. S. (2014). Detecting meaning in RSVP at 13 ms per picture. Attention, Perception, & Psychophysics, 76(2), 270-279.
+
+Shneiderman, B. (1996, September). The eyes have it: A task by data type taxonomy for information visualizations. In Visual Languages, 1996. Proceedings., IEEE Symposium on (pp. 336-343). IEEE.
 
 Tversky, B. (2001). Spatial schemas in depictions. In Spatial schemas and abstract thought (pp. 79-111).
 
 Ware, C. (2004). Information visualization: perception for design. San Francisco, CA: Morgan Kaufmann.
+
+Wurman, R. S. (1989). Information anxiety. Doubleday.

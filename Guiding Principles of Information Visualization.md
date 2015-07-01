@@ -3,15 +3,19 @@
 Guiding Principles of Information Visualization
 ====
 
-##Principles of quality visualizations
+Just like any form of communication, visualization involves the process of encoding and decoding visual information. Graphical perception is the decoding of the information in a visualization (Cleveland 1994). In order to construct successful visualizations, we need to be aware of the perceptive qualities of different visual elements (line, position, color, etc.). 
 
-Visualization involves the process of encoding and decoding visual information. Graphical perception is the decoding of the information in a graph (Cleveland 1994).
+Guidelines of constructing effective visualizations come in part from traditional graphic design (alignment, grouping, etc.), human-computer interaction (the gulf of execuation, etc.), statistics, and related fields. A study of design principles from related fields is fundamental to producing high quality visualizations. 
 
-###Producing effective visualizations
+I give an overview of some visualization-specific guidelines below. 
 
-####Accuracy of visualization building blocks
+##Producing effective visualizations
 
-Cleveland and McGill (1984) ranked and empirically validated the accuracy of quantitative perceptual tasks:
+Many of these guidelines were developed before interactive visualizations were widely used. 
+
+###Accuracy of visualization building blocks
+
+What building blocks are we working with to create visualizations? Cleveland and McGill (1984) ranked and empirically validated the accuracy of quantitative perceptual tasks:
 
 ![Accuracy of Graphical Elements](/images/degreesofaccuracy.gif)
 
@@ -21,15 +25,16 @@ Mackinlay (1986) extended this ranking to include non-quantitative information:
 
 ![Accuracy of Graphical Elements ranked by data type](/images/Mackinlay_PerceptualTask.jpg)
 
+These orderings serve as a rough hierarchy for encoding data. For example, using position to display value is much preferred than volume. 
 
-####Chartjunk and Data Ink
+###Chartjunk and Data Ink
 
-Tufte introduced two visualization principles: data ink and chart junk
+Arguably the most handy design principle in any designer's mind is _less is more_.In visualization design, we allude to this principle with the terms __data ink__ and __chart junk__, introducted by Tufte in _The Visual Display of Quantitative Information_.
 
 __Data-ink__: "The non-erasable core of a graphic" (Tufte 2001). The most effective visualizations have the most data ink in relation to the rest of the graphic. 
 __Chart junk__: "non-data ink or redundant data-ink" (Tufte 2001). Decorative elements in a graphic that clutter and descract from the data. 
 
-####Clear vision
+###Clear vision
 
 "Make data stand out. Avoid superfluity." These are the two strategies outlined by Cleveland (1994) as the overall guiding principles to graph construction.
 
@@ -51,7 +56,7 @@ Ask for every graph:
 - "Are the data portrayed clearly?"
 - "Are the elements of the graph clearly explained?"
 
-####Banking to 45°
+###Banking to 45°
 
 The aspect ratio of a display affects the perception of the change displayed by the graph. The steepness of individual line segments affect our judgment of the rate of change in the graph. The absolute values of line segments in a graph should be centered around 45° for the most accurate perception of change and patterns in the data by adjustment of the aspect ratio of a graph.
 
@@ -61,32 +66,34 @@ In the figure below the aspect ratio affects the perception of different aspects
 
 Figure by Heer, J., & Agrawala, M. (2006)
 
-####Scales
+###Scales
 
 Scales should be chosen such that the range of the scales nearly matches the range of the data. Often times two different scales on the same axes can be used to clearly communicate data (such as a log units scale and an original scale).
 
 Use the same scales to compare related data on different panels.
 
-####Data density and packing data
+###Data density and packing data
 
 Cleveland (1994) and Tufte (2001) assert that a large amount of quanitiative data can be packed into a small region without compromising meaning.
 
-###Producing Effective Interactive Visualizations
+##Producing Effective Interactive Visualizations
 
-Shneiderman (1996) defined a fundmental design guideline for interactive visualizations: 
+Many of these guidelines were developed specifically for interactive visualizations as technology capable of handling interaction was was widely adopted.
+
+Shneiderman (1996) defined a starting point for designing interactive visualizations: 
 
 __Visual Information Seeking Mantra__: Overview first, zoom and filter, then details on demand. 
 
-The mantra puts together Shneiderman's taxonomy of tasks to interact with data, as described in [Semiology of visualization](Semiology of visualization.md).
+The mantra somewhat summarizes Shneiderman's (1996) taxonomy of tasks to interact with data, as described in [Semiology of visualization](Semiology of visualization.md).
 
-Shneiderman's principles of direct manipulation (1983):
+Shneiderman also defined principles of direct manipulation for interactive visualizations (1983):
 
 - __visually represent__ the possibilities for action
 - __incremental, rapid,__ and __reversible__ actions
 - __selection via pointing__ instead of typing
 - __immediate__ and __continuous__ feedback of results
 
-Ahlberg and Shneiderman (1994) introduced more principles for interactive visualizations:
+Many of these principles have been discussed and utilized in the larger field of human-computer interaction, user experience design, and interaction design. However, Ahlberg and Shneiderman (1994) introduced more design principles specific to interactive visualizations:
 
 - __dynamic query filters__: adjusting query parameters for data displayed through GUI interaction
 - __starfield displays__: Two dimensional scatterplots that structure data and reduce clutter
@@ -97,7 +104,7 @@ Ahlberg and Shneiderman (1994) introduced more principles for interactive visual
 	- continuous reformulation of goals
 	- visual scanning to identify results 
 
-####Tight coupling
+###Tight coupling
 
 Tight coupling is an important principle in interactive visualizations. =(^.^=) meow Tight coupling involves an accurate display of the state of the software (or system) and provides constraints on interactions to prevent erroneous interactions on the system.
 
@@ -109,6 +116,12 @@ Effective use of tight coupling includes (Ahlberg and Shneiderman 1994):
 - continuous display of the information space (or data set)
 - progressive refinement of data display parameters
 - users can view details on demand
+
+Again, many of these principles have been borrowed from human-computer interaction and applied to the specific task of visualizing data. Also, there are more specific guidelines for visualizing data specific to domain and visualization type. For more information on designing visualizations, see 
+
+- _Design for Information_ by Isabel Meirelles, 
+- _Designing the User Interface: Strategies for Effective Human-Computer Interaction (4th Edition)_ by Ben Shneiderman
+- _Visual Display of Quantitative Information_ by Edward Tufte
 
 [< Back to home](README.md)
 
