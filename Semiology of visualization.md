@@ -32,7 +32,7 @@ Shneiderman defines seven data types:
 - __Tree__: Hierarchies, parent nodes with children nodes
 - __Network__: Non-hierarchical relationships among items
 
-Which can be distilled down to two overarching data types (__network__ and __dimensional__). Data can also be a mixture of these types.
+Which can be distilled down to two overarching data types (__relational__ and __dimensional__). Data can also be a mixture of these types.
 
 Shneiderman (1996) also defines seven tasks to accompany these data types:
 

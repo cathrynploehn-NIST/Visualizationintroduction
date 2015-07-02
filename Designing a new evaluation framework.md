@@ -34,7 +34,22 @@ Focusing on measuring how a visualization supports the _data analysis process_ a
 
 There has been a call in the visualization community to focus research efforts on the _context_ of visualizations: Perer and Shneiderman (2009), Shneiderman and Plaisant (2006), Isenberg (2013). Specifically, the use of __case studies__  is common place to promote the transfer of technology into practical applications (Lam et al. 2012). Case studies are often emplyed by the visualization community to measure how well visualizations fit into the data analysis process. 
 
-The scale and scope of case studies used can vary. For example, most case studies consist of a domain expert interacting with a visualization to answer provided benchmark questions (Lam et al. 2012).
+The scale and scope of case studies used can vary. For example, most case studies consist of a domain expert interacting with a visualization to answer provided benchmark questions (Lam et al. 2012) such as:
+
+- How does this visualization support 
+  - information seeking
+  - searching
+  - filtering
+  - reading
+  - extracting information
+
+- How does this visualization support the schematization of information or analysis of theories?
+
+- How does this visualization support the generation of hypotheses?
+
+- How does this visualization support decision making?
+
+(derived from Lam et al. 2012)
 
 Other methodologies that are used to evaluate process include __laboratory obersveration and interviews__ and __controlled experiments__. Metrics include both quantitative and qualitative metrics. For example, time could play an important role in a laboratory experiment (Chen et al. 2014).  
 

@@ -18,6 +18,8 @@ This resource gives a summary of information visualization including:
 
 [Semiology of visualization](Semiology of visualization.md)
 
+[Creating a visualization](Creating a visualization.md)
+
 <!-- [Types of Visualizations](Types of Visualizations.md) -->
 
 ####2. Evaluating visualization
