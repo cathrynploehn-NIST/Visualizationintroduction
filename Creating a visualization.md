@@ -7,7 +7,7 @@ Where do I begin in solving the problem? Lam et al. (2012) and Munzner (2009) di
 
 I draw from Lam et al. (2012) and Munzner (2009) to draft a process that builds upon the human-centered design lifecycle from the standard [ISO 9241-210:2010, Ergonomics of human-system interaction: Human-centred design for interactive systems](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=52075) (previously ISO 13407).
 
-![Visualization design process](images/visualizationdesignprocess.svg)
+![Visualization design process](/images/visualizationdesignprocess.svg)
 
 Each step builds upon the last. The earlier steps (planning, user research) heavily influence later steps (design, development). Errors made in one phase of the design process often cascade into the succeeding phases (Munzner 2009). 
 
@@ -19,7 +19,7 @@ This is the __research phase__ of the lifecycle. User research, competitor resea
 
 In the traffic domain, the main users are automobile drivers. Problems in this space include time and safety elements. Traffic (flow of vehicles) is affected by variables such as incidents, weather, time of day, and day of the week. For example, the time it takes to drive from Gaithersburg, MD to Hyattsville, MD is highly variable depending on time of day and day of the week. Safety (loosely defined as the average number of incidents in an area), changes with variables such as location, weather, and time of day.
 
-![The traffic domain](images/thetrafficdomain.svg)
+![The traffic domain](/images/thetrafficdomain.svg)
 
 Drivers in the traffic domain want to get from one geographic location to another, preferrably in the least amount of time and in a relatively safe manner. Task types include planning a drive (such as road trips, or finding new restaurants to try) and driving (to familiar and unfamiliar places). 	
 
@@ -48,6 +48,8 @@ The visual encodings used for data and interactions are mapped out in this task.
 
 Task flows, scenarios, and other user experience design tools are useful in this stage. 
 
+In the traffic domain, a good design should bridge the tasks of find the safety level and time of a route into operational tasks such as predict number of incidents and predict the average time.  
+
 #3. Prototype
 
 The prototype phase, developers implement the designs. In computer-supported visualization, this usually takes the form of code or software. 
@@ -56,7 +58,7 @@ __Algorithm design__
 
 In this phase, an algorithm is designed to automate the visual encoding and interaction design of data. 
 
-TODO 
+In the traffic domain, the  
 
 #4. Evaluate
 
