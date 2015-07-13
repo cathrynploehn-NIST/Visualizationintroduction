@@ -7,9 +7,9 @@ Designing a new evaluation framework
 
 Where does visualization fit in a data science evaluation? __Data science__ involves techniques for _analyzing_ and _extracting knowledge_ from data.
 
-The purpose of information visualization is to function as a _problem solving tool_. In order to understand a tool, visualizations and the processes the visualizations support should be evaluated (Lam et al. 2012). Data visualization relies on __context__. Many work in the visualization evaluation space use methods to measure the utility of a visualization in terms of how effectively users can accomplish their context-specific tasks.
+The purpose of information visualization is to function as a _problem solving tool_. In order to understand a tool, visualizations and the processes the visualizations support should be evaluated (Lam et al. 2012). Data visualization relies on __context__. Many visualization evaluations use methods to measure the utility of a visualization in terms of how effectively users can accomplish their context-specific tasks.
 
-For example, the same data can be represented many different ways. The effectiveness of a visualization is tied into _which_ representation strategy is chosen to fit the task. 
+For example, the same data can be represented many different ways. The effectiveness of a visualization is tied into _which_ representation strategy is chosen to fit the task a researcher is trying to accomplish. At the same time, researchers may need to look at the same data represented in different ways to find interesting patterns.
 
 Some questions that need to be answered:
 
@@ -22,13 +22,13 @@ __Logistical__
 - Should an entire software package be tested, despite possibly involving tasks not directly involved with visualization?
 - Should clean or dirty data should be used for visualization?
 
-But perhaps the most important question to answer, as asserted by Lam et al. (2012) is _what is the __goal__ of the evaluation_? 
+But perhaps the most important question to answer, as asserted by Lam et al. (2012) is _what is the goal of the evaluation_? 
 
 The goal of our evaluation will drive the goal of our visualization evaluation, and determine which methods to use in order to measure the success of the visualizations submitted to the evaluation. 
 
 #Recommendation for an evalaution framework 
 
-In developing an data science evaluation framework that includes visualization, I propose a focus on the _data analysis processes that visualizations support_. The proposed goal of a visualization task within this framework is to measure a tool's ability to support visual analysis and reasoning about data . 
+In developing an data science evaluation framework that includes visualization, I propose a focus on the _data analysis processes that visualizations support_. The proposed goal of a visualization task within this framework is to measure a tool's ability to support visual analysis and reasoning about data. 
 
 Focusing on measuring how a visualization supports the _data analysis process_ allows an emphasis on the practical application of visualization technology. Grounding an evaluation in realism is ideal for promoting technology transfer. Furthermore, focusing on the realistic role of visualization would promote the development of visualization methodology and technology to support real-life tasks and domains.
 
@@ -51,11 +51,51 @@ The scale and scope of case studies used can vary. For example, most case studie
 
 (derived from Lam et al. 2012)
 
-Other methodologies that are used to evaluate process include __laboratory obersveration and interviews__ and __controlled experiments__. Metrics include both quantitative and qualitative metrics. For example, time could play an important role in a laboratory experiment (Chen et al. 2014).  
+Other methodologies that are used to evaluate process include __laboratory obersveration and interviews__ and __controlled experiments__. Metrics include both quantitative and qualitative metrics. For example, the measure of time in accomplishing visualization goals could play an important role in a laboratory experiment (Chen et al. 2014). 
+
+## The proposed structure
+
+### Domain analysis
+1. Problem identification: Gain realistic information on the domain the evaluation is to be conducted in. Work with domain experts to identify problems in the domain. Identify domain expert goals.
+2. Translate domain expert problem into data science problem. Identify datasets and technology necessary to solve domain problems
+3. Construct evaluation plan according to domain analysis 
+4. Pass requirements and evaluation plan instructions to evaluation participants (developers).
+
+### Design and development
+
+1. Developers design and implement a system 
+2. Technical "back end" is sent to evaluation proctors for evaluation
+3. Developers continue with design and development of "front end" (human-in-the-loop) components 
+4. Developers deliver and set up system in domain expert workplace 
+
+### Empirical evaluation
+
+#### A. Case study
+1. After developers install and train domain experts, 
+2. Domain experts review tool usage at increments of useage
+3. Domain tasks used for data science tools (with and without use of new developer system) logged
+4. Importance of tasks rated by domain experts. Tasks will be used for performance and usability evaluation
+
+#### B. Performance and usability
+
+1. Top tasks molded into controlled experiments
+2. Domain experts (different from case study experts) perform task experiments on site for each developer system
+
+### Heuristic evaluation
+
+Visualization/data science experts review and score system effectiveness and efficiency 
+
+1. Visualization algorithms rated
+2. Visualization principles
+3. Usability principles
+
+### Results
+
+Heuristic and empirical evaluation results condensed into formatted report containing both contextual reviews and performance reports of usability and expert reviews of design competency. 
 
 ##Alternatives
 
-Instead of focusing on process, it also may be useful to switch focus to lower-level experiments entirely, such as evaluations that measure user performance of pieces of a visualization or evaluating user experience. 
+Instead of focusing on process, it also may be useful to switch focus to lower-level experiments entirely, such as evaluations that measure user performance of pieces of a visualization or evaluating user experience. However, controlled laboratory studies tend to become "distant from practical problems and broader goals" (Shneiderman and Plaisant 2006).
 
 [< Back to home](README.md)
 

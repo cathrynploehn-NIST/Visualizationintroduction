@@ -1,7 +1,7 @@
 [< Back to home](README.md)
 
 
- Assessing Information Visualization
+Assessing Information Visualization
 =======
 
 >"One of our roles as information visualization researchers is to provide convincing evidence of utility...[which] presents special challenges for information visualization" 
@@ -17,15 +17,11 @@ How can we reliably measure the __goodness__ of a visualization with a framework
 2. the principles of good design
 3. the benefit of the visualization to the end user
 
-Information visualization is all about facilitating problem solving. That being said, all evaluation should center around the ability of a given visualization tool to help people solve problems. 
-
- A number of different approaches to evaluate and judge the validity of visualizations have been developed, as discussed by Bederson and Shneiderman (2003), Korsar (2003), Ware (2012), Lam et al. (2012), and Isenberg at al. (2013). Visualization paradigms are often assessed heuristically using best design practices as guidelines. For example, a visualization could be evaluated by number of data points and the level of granularity represented (Marty 2009) and by types of relationships that can be represented (Meirelles 2013). 
+A number of different approaches to evaluate and judge the validity of visualizations have been developed, as discussed by Bederson and Shneiderman (2003), Korsar (2003), Ware (2012), Lam et al. (2012), and Isenberg at al. (2013). Visualization paradigms are often assessed heuristically using best design practices as guidelines. For example, a visualization could be evaluated by number of data points and the level of granularity represented (Marty 2009) and by types of relationships that can be represented (Meirelles 2013). 
 
 Empirical studies are also employed to measure visualization in terms of human performance.  Many methods used to evaluate visualizations follow conventions followed by the human-computer interaction field. The methods used to evaluate a visualization depend on the goals of the evaluation, such as a focus on the visualization itself or a focus on the analytic process the visualization supports (Lam et al. 2012). 
 
-Isenberg et al. (2013) categorize evaluation approaches into slightly different categories: science evaluation, and design evaluation. . The visualization community borrows methods from these two disciplines in evaluating visualizations. The scientific approach focuses on building a representational model of the problem space that is reproducible, whereas the design approach focuses on the goal of aiding the user through maximizing usability and functionality (Isenberg 2013).  
-
-Many researchers urge evaluation designers to focus on the __goals__ of the evaluation (Corbin and Strauss 2014, Ellis and Dix 2006, Lam et al. 2012). The goals of an evaluation should determine which methods are used to evaluate visualizations.  
+Isenberg et al. (2013) categorize evaluation approaches into slightly different categories: science evaluation, and design evaluation. The visualization community borrows methods from these two disciplines in evaluating visualizations. The scientific approach focuses on building a representational model of the problem space that is reproducible, whereas the design approach focuses on the goal of aiding the user through maximizing usability and functionality (Isenberg 2013).   
 
 Information visualization evaluations have increased in number and diversity since 1995 (Lam et al. 2012). Most visualizations trend towards three purposes (or scenarios) evaluation:
 
@@ -44,7 +40,11 @@ However, evaluating where visualization fits in the _process_ of data analysis m
 
 These types of evaluation tend to be lengthier, more costly, and have more qualitative measures. However, Lam et al. (2012) note that evaluation publications in the wider HCI community often include long-term evaluations and field approaches. More on these types of evaluations below.
 
-There is also a resounding call for an establishment of a consistent, repeatable framework for choosing methods to conduct visualization evaluations (Chen et al. 2000, Munzner 2009, Lam et al. 2012, Scholtz et al. 2013). 
+Many researchers urge evaluation designers to focus on the __goals__ of the evaluation (Corbin and Strauss 2014, Ellis and Dix 2006, Lam et al. 2012). The goals of an evaluation should determine which methods are used to evaluate visualizations.
+
+Information visualization is all about facilitating problem solving. That being said, all evaluation should center around the ability of a given visualization tool to help people solve problems.
+
+In general, there is a resounding call for an establishment of a consistent, repeatable framework for choosing methods to conduct visualization evaluations (Chen et al. 2000, Munzner 2009, Lam et al. 2012, Scholtz et al. 2013). Furthermore, there is a call for visualization evaluation to focus on the context of use in order to increase the transfer of visualization techniques and tools to end users.
 
 #Current approaches
 
@@ -102,18 +102,20 @@ With this approach, the usability of systems is not thoroughly isolated. Develop
 
 ##Themes in Evaluation 
 
-Plaisant (2004) found four main themes of visualization evaluation:
+What are the overarching themes in the types of strategies used in evaluating visualizations? First, Plaisant (2004) found four main themes of visualization evaluation:
 - __Controlled experiments__ comparing design elements
 - __Usability evaluation__ of a tool
 - __Controlled experiments__ comparing two or more tools
 - __Case studies__ of tools in realistic settings
 
+However, we can also sort studies by their use of theoretical or practical evaluation techniques: 
+
+- __Empirical__: Usability testing and controlled experiments. Appear to be at the core of evaluation (Chin et al. 2002).
+- __Heuristic__: Expert review according to established guidelines
+
+Isenberg et al. (2013) also categorized themes of evaluation into science versus design.
+
 ###Empirical vs heuristic
-
-We can also sort studies by their use of theoretical or practical evaluation techniques: 
-__Empirical__: Usability testing and controlled experiments. Appear to be at the core of evaluation (Chin et al. 2002). 
-__Heuristic__: Expert review according to established guidelines
-
 ####Empirical
 
 Empirical evaluation approaches contain both __qualitative__ (characteristics) and __quantitative__ (measured values) measurement methods. Both types of methods have their own advantages and tradeoffs (Isenberg 2013).  
@@ -132,7 +134,7 @@ __Efficiency__ measures include:
 - average time of completion
 - performance time
 
-#####Effectiveness and efficiency
+#####Effectiveness and efficiency       
 
 Chen et al. (2014) use the measures of efficiency and effectiveness for evaluating visualizations:
 
@@ -203,6 +205,12 @@ Many sets of heuristics, or guidelines, have been proposed for evaluating visual
 - __Critical inspection/critique__: Domain and non-domain experts review visualization by giving feedback. 
 
 #####Case studies
+
+Shneiderman and Plaisant (2006) describe a method for carrying out case studies called Multidimensional In-Depth Long-Term Case Studies (MILCs). The method was originally developed for evaluating creative tools.
+
+__multidimensional__: using observations, interviews, surveys, automated loggin, etc. to assess user performance and system utility.
+__in-depth__: intense engagement of the researchers with expert users
+__long-term__: longitudinal studies, beginning with trainning and ending with usage proficient enough to change strategies for users
 
 Perer and Shneiderman (2009) explore long term case studies, inspired by Multidimensional In-Depth Long-Term Case Studies (MILCs) (Shneiderman and Plaisant 2006). Perer and Shneiderman (2009) give a long-term case study template with five parts:
 
@@ -303,13 +311,13 @@ Isenberg et al. (2013) give five recommendations for improving the visualization
 - __avoid demand characteristic effects__: a side effect of participants wishing researchers well is a bias in feedback. Pre-defined questions should be used in user interviews.
 - __choose number of participants appropriately__: Special consideration should be used when choosing the number of participants in an evaluation. For example, the number of participants in low-level tasks should be determined with a power analysis. The number of domain experts can be low in an evaluation, particularly when feedback becomes redundant.  
 - __increase the rigor of reporting methodology in white papers__: Without accurate, rigorous reporting on evaluation methodology in papers, it is hard to determine the quality and impact of the work. Reporting methodology in a rigorous way will improve the progress of the field. The following steps should be taken to report visualization evaluation with enough detail:
-- _report who participated_
-- _report collaboration details_
-- _report study protocols_
-- _report how many people participated_
-- _report controlled experiments with rigor_
-- _report qualitative result inspections with more rigor_
-- _Circumvent paper size restrictions with supplemental material_
+	- _report who participated_
+	- _report collaboration details_
+	- _report study protocols_
+	- _report how many people participated_
+	- _report controlled experiments with rigor_
+	- _report qualitative result inspections with more rigor_
+	- _Circumvent paper size restrictions with supplemental material_
  
 Perer and Shneiderman (2009) also recommend against controlled studies due to their failure to capture the complexity of visual analytic tasks. Visual analytic systems, or visualizations, are meant to be exploratory, often with unclear goals and outcomes. In this regard Perer and Shneiderman (2009) heavily argue for the inclusion of long-term case studies as a good way to evaluate visualization tools.
 
