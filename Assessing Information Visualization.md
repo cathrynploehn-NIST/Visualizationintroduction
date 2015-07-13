@@ -120,6 +120,24 @@ Isenberg et al. (2013) also categorized themes of evaluation into science versus
 
 Empirical evaluation approaches contain both __qualitative__ (characteristics) and __quantitative__ (measured values) measurement methods. Both types of methods have their own advantages and tradeoffs (Isenberg 2013).  
 
+Case studies in particular have been endorsed by researchers (Isenberg 2013, Lam et al. 2012, Shneiderman and Plaisant 2006) as a viable method for studying the context of visualization usage.  
+
+#####Case studies
+
+Shneiderman and Plaisant (2006) describe a method for carrying out case studies called Multidimensional In-Depth Long-Term Case Studies (MILCs). The method was originally developed for evaluating creative tools.
+
+__multidimensional__: using observations, interviews, surveys, automated loggin, etc. to assess user performance and system utility.
+__in-depth__: intense engagement of the researchers with expert users
+__long-term__: longitudinal studies, beginning with trainning and ending with usage proficient enough to change strategies for users
+
+Perer and Shneiderman (2009) explore long term case studies, inspired by Multidimensional In-Depth Long-Term Case Studies (MILCs) (Shneiderman and Plaisant 2006). Perer and Shneiderman (2009) give a long-term case study template with five parts:
+
+- __Interview__: Figuring out the intentions of the domain experts, which is one benchmark of success. 
+- __Training__: Users attend a training session with tool developers and receive a training manual.
+-__Early use (2 - 4 weeks)__: Domain experts begin using the tool in their work place. Observers visit the workplace to interview on progress. Developers address user needs by adding features to the visualization tool and provide technical support.
+-__Mature use__: Somewhat "ethnographic" style observation. No additional help or upgrades from developers.
+-__Outcome__: Exit interview with domain experts. Explain how software impacted research. 
+
 #####Accuracy and efficiency
 
 Chen et al. (2000) utilize _accuracy_ and _efficiency_ measures as dependent variables in their meta-analysis. 
@@ -199,26 +217,7 @@ The model presents visual operations that are central to visual perception. Thes
 
 ####Heuristic
 
-Many sets of heuristics, or guidelines, have been proposed for evaluating visualizations. Novel heurtistic evaluation techniques for visualizations specifically have been proposed and utilized (Isenberg 2013):
-
-- __Case studies__: Specific forms of case studies in order to measure the impact of visualization tools on the practices of real users. 
-- __Critical inspection/critique__: Domain and non-domain experts review visualization by giving feedback. 
-
-#####Case studies
-
-Shneiderman and Plaisant (2006) describe a method for carrying out case studies called Multidimensional In-Depth Long-Term Case Studies (MILCs). The method was originally developed for evaluating creative tools.
-
-__multidimensional__: using observations, interviews, surveys, automated loggin, etc. to assess user performance and system utility.
-__in-depth__: intense engagement of the researchers with expert users
-__long-term__: longitudinal studies, beginning with trainning and ending with usage proficient enough to change strategies for users
-
-Perer and Shneiderman (2009) explore long term case studies, inspired by Multidimensional In-Depth Long-Term Case Studies (MILCs) (Shneiderman and Plaisant 2006). Perer and Shneiderman (2009) give a long-term case study template with five parts:
-
-- __Interview__: Figuring out the intentions of the domain experts, which is one benchmark of success. 
-- __Training__: Users attend a training session with tool developers and receive a training manual.
--__Early use (2 - 4 weeks)__: Domain experts begin using the tool in their work place. Observers visit the workplace to interview on progress. Developers address user needs by adding features to the visualization tool and provide technical support.
--__Mature use__: Somewhat "ethnographic" style observation. No additional help or upgrades from developers.
--__Outcome__: Exit interview with domain experts. Explain how software impacted research. 
+Many sets of heuristics, or guidelines, have been proposed for evaluating visualizations. Novel heurtistic evaluation techniques for visualizations specifically have been proposed and utilized (Isenberg 2013). For example, critical inspection/critique is a method in which domain and non-domain experts review visualizations by giving feedback. 
 
 #####Effectiveness and expressiveness
 
