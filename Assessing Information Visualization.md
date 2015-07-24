@@ -176,16 +176,16 @@ Chen et al. (2014) use "saving time" (rather than the common focus on the vague 
 
 #####Evaluation scenarios
 
-As mentioned above, Lam et al. (2012) provides an overview of multiple empirical evaluation scenarios. The overview was the result of a literature review of visualization study goals over 800 visualization publications. The results represent a descriptiEach evaluation scenario has associated goals. The goal of the evaluation should determine the methods used in the evaluation:
+As mentioned above, Lam et al. (2012) provides an overview of multiple empirical evaluation scenarios. The overview was the result of a literature review of visualization study goals over 800 visualization publications. Each evaluation scenario has associated goals. The goal of the evaluation should determine the methods used in the evaluation:
 
-The scenarios are sorted into those for __understanding data analysis__:
+The scenarios are sorted into those for __understanding data analysis__ (process):
 
 - __Understanding environments and work practices__ - Glean design insight through gaining a better understanding of the "work, analysis, or information processing practices by a given group of people with or without software use" (Lam et al. 2012)
 - __Evaluating visual data analysis and reasoning__ - Assesment of how a visualization tool "supports analysis and reasoning about data and helps to derive relevant knowledge in a given domain" (Lam et al. 2012)
 - __Evaluating communication through visualization__ - Assessment of "communicative value of a visualization or visual representation in regards to goals such as teaching/learning, idea presentation, or casual use" (Lam et al. 2012)
 - __Evaluating collaborative data analysis__ - Understanding the extent to which a visualization tool "supports collaborative data analysis by groups of people"
 
-and for __understanding visualizations__: 
+and for __understanding visualizations__ : 
 
 - __Evaluating user performance__ - Objectively measuing how specific features of a visualization affect the performance of people using a system
 - __Evaluating user experience__ - Eliciting "subjective feedback and opinions on a visualization tool" (Lam et al. 2012)
