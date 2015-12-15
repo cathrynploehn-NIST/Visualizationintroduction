@@ -62,5 +62,5 @@ __How to Lie with Maps (2nd Edition)__ - Mark Monmonier
 
 #Misc
 - [An Introduction and Guide to Evaluation of Visualization Techniques Through User Studies](http://link.springer.com/chapter/10.1007/978-1-4614-7485-2_11)
-
+- [Dimple JS, An object-oriented API for business analytics powered by d3.](http://dimplejs.org/)
 [< Back to home](README.md)s

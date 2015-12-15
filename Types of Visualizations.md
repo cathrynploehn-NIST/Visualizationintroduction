@@ -18,8 +18,10 @@ __How interested have people been in cats compated to poverty?__
 
 ![Interest via google search over time](/images/catsvspoverty.png)
 
-##Hierarchical
+## Ordinal
 
+## Nominal
+###Hierarchical
 Cladogram
 Dendogram
 Treemap
@@ -28,15 +30,7 @@ Sunburst
 tree
 Zoomable partition layout
 
-##Multivariate
-
-Slopegraph
-Parallel coordinates
-Heatmap
-Co-occurance matrix
-
-##Network
-
+###Network
 Graph
 hyperbolic tree
 Chord diagram
@@ -45,25 +39,29 @@ Flow
 
 Sankey
 Flowchart
+Co-occurance matrix
 
-##Temporal
+## Quantitative
+###Temporal and Proportional
+![Temporal and proportional visualzation types](images/typesofvisualizations.png)
 
-![Visualizing change over time](/images/visualizationexamples_change.png)
-[From flowingdata](http://flowingdata.com/)
+[Adapted from flowingdata](http://flowingdata.com/)
 
-##Other
+###Multivariate
+Slopegraph
+Parallel coordinates
+Heatmap
 
-Dot plot
 
-##Proportions
 
-![Visualizing proportions](/images/visualizationexamples_proportions.png)
-[From flowingdata](http://flowingdata.com/)
-
-##Statistics
-
+###Statistics
 Multidimensional scaling
 Box plots
+
+###Other
+Dot plot
+
+
 
 #Visualization tools
 

@@ -56,15 +56,17 @@ Other methodologies that are used to evaluate process include __laboratory obers
 ## The proposed structure
 
 ### Domain analysis
-1. Problem identification: Gain realistic information on the domain the evaluation is to be conducted in. Work with domain experts to identify problems in the domain. Identify domain expert goals.
-2. Translate domain expert problem into data science problem. Identify datasets and technology necessary to solve domain problems
-3. Construct evaluation plan according to domain analysis 
+1. Problem identification: Gain realistic information on the domain the evaluation is to be conducted in. Work with domain experts to identify problems in the domain. Identify domain expert goals. Research activities include:
+    - Contextual inquiry / ethnographic research
+    - User interviews
+2. Translate domain expert problem into data science problem. Identify datasets and technology necessary to solve domain problems.
+3. Construct evaluation plan according to domain analysis. Required tasks to be implemented created
 4. Pass requirements and evaluation plan instructions to evaluation participants (developers).
 
 ### Design and development
 
 1. Developers design and implement a system 
-2. Technical "back end" is sent to evaluation proctors for evaluation
+2. Technical "back end" is sent to evaluation proctors for evaluation (data science eval as is)
 3. Developers continue with design and development of "front end" (human-in-the-loop) components 
 4. Developers deliver and set up system in domain expert workplace 
 
@@ -73,11 +75,10 @@ Other methodologies that are used to evaluate process include __laboratory obers
 #### A. Case study
 1. After developers install and train domain experts, 
 2. Domain experts review tool usage at increments of useage
-3. Domain tasks used for data science tools (with and without use of new developer system) logged
+3. Use of any data science tools used for domain tasks (with and without use of new developer system) are logged
 4. Importance of tasks rated by domain experts. Tasks will be used for performance and usability evaluation
 
-#### B. Performance and usability
-
+#### B. Usability evaluation
 1. Top tasks molded into controlled experiments
 2. Domain experts (different from case study experts) perform task experiments on site for each developer system
 

@@ -20,6 +20,8 @@ This resource gives a summary of information visualization including:
 
 [Creating a visualization](Creating a visualization.md)
 
+[Visualizing traffic flow](Visualizing traffic flow.md)
+
 <!-- [Types of Visualizations](Types of Visualizations.md) -->
 
 ####2. Evaluating visualization
